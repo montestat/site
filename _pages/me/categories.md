@@ -1,8 +1,8 @@
 ---
 layout: categories
 permalink: /me/categories/
-language: me
 title: Categories
+language: me
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+
+Translation needed.
