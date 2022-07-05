@@ -27,8 +27,8 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: Montenegro
-  adjective: Montenegrin
+  name: custom.country-name
+  adjective: custom.country-adj
 create_goals:
   layout: goal-with-progress
   previous_next_links: false
