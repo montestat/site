@@ -27,8 +27,8 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: Montenegro
-  adjective: Montenegrin
+  name: Australia
+  adjective: Australian
 create_goals:
   layout: goal-with-progress
   previous_next_links: false
@@ -79,10 +79,10 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  # - path: 'https://twitter.com/MyTwitterAccount'
-  #   translation_key: general.twitter
-  # - path: 'https://facebook.com/MyFacebookAccount'
-  #   translation_key: general.facebook
+  - path: 'https://twitter.com/MyTwitterAccount'
+    translation_key: general.twitter
+  - path: 'https://facebook.com/MyFacebookAccount'
+    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -92,25 +92,25 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  # - title: Lorem ipsum
-  #   content: |
-  #     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-  #     cursus est sed dapibus.
-  #   include: ''
-  #   button_label: Read more
-  #   button_link: 'https://example.com'
-  #   rule_color: ''
-  # - title: Nam vestibulum
-  #   content: |
-  #     Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-  #     interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-  #   include: ''
-  #   button_label: Read more
-  #   button_link: 'https://example.com'
-  #   rule_color: ''
+  - title: Lorem ipsum
+    content: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+      cursus est sed dapibus.
+    include: ''
+    button_label: Read more
+    button_link: 'https://example.com'
+    rule_color: ''
+  - title: Nam vestibulum
+    content: |
+      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+    include: ''
+    button_label: Read more
+    button_link: 'https://example.com'
+    rule_color: ''
 frontpage_goals_grid:
-  title: custom.goals-grid-title
-  description: custom.goals-grid-description
+  title: my-custom-translations.my-goals-grid-title
+  description: my-custom-translations.my-goals-grid-description
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
@@ -159,7 +159,7 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - me
+  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -201,9 +201,9 @@ menu:
   - path: /about
     translation_key: menu.about
     dropdown: []
-  # - path: /faq
-  #   translation_key: menu.faq
-  #   dropdown: []
+  - path: /faq
+    translation_key: menu.faq
+    dropdown: []
   - path: /news
     translation_key: menu.updates
     dropdown: []
