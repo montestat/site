@@ -10,7 +10,7 @@ environment: staging
 
 languages:
   - en
-  - me
+  - cnr
 
 # Pages
 collections:

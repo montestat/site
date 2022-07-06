@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Cookies and privacy
-permalink: /me/about/cookies-and-privacy/
-language: me
+permalink: /cnr/about/cookies-and-privacy/
+language: cnr
 ---
 The following is a description of what data is collected when you use this website and what it is used for.
 

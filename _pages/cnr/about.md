@@ -1,7 +1,7 @@
 ---
 title: About
-permalink: /me/about/
-language: me
+permalink: /cnr/about/
+language: cnr
 layout: page
 ---
 

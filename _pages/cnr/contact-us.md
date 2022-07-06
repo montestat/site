@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact us
-permalink: /me/contact-us/
-language: me
+permalink: /cnr/contact-us/
+language: cnr
 ---
 ### We are interested in your feedback regarding this website and its contents.
 

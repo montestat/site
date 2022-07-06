@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-permalink: /me/news/
-language: me
+permalink: /cnr/news/
+language: cnr
 ---
 
 ## News and Events
