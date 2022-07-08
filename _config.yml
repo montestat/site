@@ -8,10 +8,6 @@ title: general.site_title
 url: ""
 environment: staging
 
-languages:
-  - en
-  - cnr
-
 # Pages
 collections:
   pages:
