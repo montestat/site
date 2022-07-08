@@ -27,8 +27,8 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: custom.country-name
+  adjective: custom.country-adj
 create_goals:
   layout: goal-with-progress
   previous_next_links: false
@@ -70,19 +70,19 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: montenegrosdg@gmail.com
+  suggestions: montenegrosdg@gmail.com
+  functional: montenegrosdg@gmail.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
+  # - path: 'https://twitter.com/MyTwitterAccount'
+  #   translation_key: general.twitter
+  # - path: 'https://facebook.com/MyFacebookAccount'
+  #   translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -92,31 +92,32 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+  # - title: Lorem ipsum
+  #   content: |
+  #     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+  #     cursus est sed dapibus.
+  #   include: ''
+  #   button_label: Read more
+  #   button_link: 'https://example.com'
+  #   rule_color: ''
+  # - title: Nam vestibulum
+  #   content: |
+  #     Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+  #     interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+  #   include: ''
+  #   button_label: Read more
+  #   button_link: 'https://example.com'
+  #   rule_color: ''
 frontpage_goals_grid:
-  title: my-custom-translations.my-goals-grid-title
-  description: my-custom-translations.my-goals-grid-description
+  title: custom.goals-grid-title
+  description: custom.goals-grid-description
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+# goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: 'https://montestat.github.io/site/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -159,6 +160,7 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
+  - cnr
 languages_public: []
 logos: []
 map_layers: []
@@ -200,9 +202,9 @@ menu:
   - path: /about
     translation_key: menu.about
     dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []
+  # - path: /faq
+  #   translation_key: menu.faq
+  #   dropdown: []
   - path: /news
     translation_key: menu.updates
     dropdown: []
