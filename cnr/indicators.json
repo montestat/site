@@ -1,0 +1,2129 @@
+[
+  {
+    "goal": {
+      "id": "1",
+      "title": "Svugdje okončati siromaštvo u svim njegovim oblicima",
+      "indicators": [
+        
+        {
+          "id": "1-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-5-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-5-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-a-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/1-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "2",
+      "title": "Prekinuti glad, postići sigurnost hrane i poboljšanu ishranu i promovisati održivu poljoprivredu",
+      "indicators": [
+        
+        {
+          "id": "2-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-a-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/2-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "3",
+      "title": "Obezbijediti zdrav život i promocija blagostanja za sve u svim uzrastima",
+      "indicators": [
+        
+        {
+          "id": "3-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-3-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-3-5",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-3-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-7-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-8-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-8-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-9-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-9-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-9-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-9-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-b-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-b-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-c-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-d-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/3-d-2",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4",
+      "title": "Osigurati inkluzivno i pravično kvalitetno obrazovanje i promovisati mogućnosti doživotnog učenja za sve",
+      "indicators": [
+        
+        {
+          "id": "4-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/4-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5",
+      "title": "Ostvariti rodnu ravnopravnost i osnažiti sve žene i djevojke",
+      "indicators": [
+        
+        {
+          "id": "5-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-a-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/5-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Osigurati dostupnost i održivo upravljanje vodom i sanitarnim uređajima za sve",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/6-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Osigurati pristup pristupačnoj, pouzdanoj, održivoj i modernoj energiji za sve",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/7-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8",
+      "title": "Promovisati održiv, inkluzivan i održiv ekonomski rast, punu i produktivnu zaposlenost i pristojan rad za sve",
+      "indicators": [
+        
+        {
+          "id": "8-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-8-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-9-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-9-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-10-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-10-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/8-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9",
+      "title": "Izgraditi otpornu infrastrukturu, promovisati inkluzivnu i održivu industrijalizaciju i podsticati inovacije",
+      "indicators": [
+        
+        {
+          "id": "9-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/9-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Smanjiti nejednakost unutar i među zemljama",
+      "indicators": [
+        
+        {
+          "id": "10-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-7-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/10-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Učiniti gradove i naselja inkluzivnim, sigurnim, otpornim i održivim",
+      "indicators": [
+        
+        {
+          "id": "11-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3",
+          "title": "(a) Damage to critical infrastructure and (b) number of disruptions to basic services, attributed to disasters",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-5-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-6-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/11-b-2",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Osigurati održive obrasce potrošnje i proizvodnje",
+      "indicators": [
+        
+        {
+          "id": "12-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/12-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Preduzeti hitne mjere u borbi protiv klimatskih promjena i njihovih uticaja",
+      "indicators": [
+        
+        {
+          "id": "13-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/13-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14",
+      "title": "Očuvati i održivo koristiti okeane, mora i morske resurse za održivi razvoj",
+      "indicators": [
+        
+        {
+          "id": "14-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/14-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Zaštititi, obnoviti i promovisati održivo korišćenje kopnenih ekosistema, održivo upravljati šumama, boriti se protiv dezertifikacije i zaustaviti i preokrenuti degradaciju zemljišta i zaustaviti gubitak biodiverziteta",
+      "indicators": [
+        
+        {
+          "id": "15-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-3-1-a",
+          "title": "global_indicators.15-3-1-a-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-3-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-9-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-9-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-c-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/15-c-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16",
+      "title": "Promovisati mirna i inkluzivna društva za održivi razvoj, obezbijediti pristup pravdi za sve i izgraditi efikasne, odgovorne i inkluzivne institucije na svim nivoima",
+      "indicators": [
+        
+        {
+          "id": "16-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-4",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-4-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-5-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-5-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-9-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-9-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-10-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-10-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-10-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-10-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/16-b-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Ojačati sredstva implementacije i revitalizovati Globalno partnerstvo za održivi razvoj",
+      "indicators": [
+        
+        {
+          "id": "17-1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-5-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-7-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-8-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-9-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-9-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-10-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-10-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-11-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-12-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-12-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-13-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-14-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-14-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-15-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-16-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-17-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-17-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-18-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-18-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-18-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-19-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/cnr/17-19-2",
+          "status": "notstarted"
+        }]
+    }
+  }]

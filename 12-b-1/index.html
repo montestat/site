@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220708163559">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220708164610">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -166,7 +166,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:montenegrosdg@gmail.com">feedback</a>.
     
   </div>
 </div>
@@ -191,8 +191,6 @@ layout-indicator
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/about">About</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/faq">FAQ</a>
-</li><li class="nav-item ">
     <a class="nav-link" href="/site/news">Updates</a>
 </li></ul>
     
@@ -211,7 +209,37 @@ layout-indicator
 </form>
 
                 </div>
-                <div class="header-toggles d-flex"><a title="Enable high contrast" aria-label="Enable high contrast"
+                <div class="header-toggles d-flex">
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      English
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/site/cnr/12-b-1/">
+              Montenegrin
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-cnr list-inline-item">
+            <a class="language-toggle-link" href="/site/cnr/12-b-1/">
+                Montenegrin
+            </a>
+        </li></ul>
+</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -338,7 +366,7 @@ data-event-label="high"
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/site/12" title="View this goal's indicator list">
-                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png"
+                    <img src="https://montestat.github.io/site/assets/img/goals/en/12.png"
                         alt="Responsible consumption and production - Goal 12"
                         id="goal-12"
                         class="goal-icon-image goal-icon-image-" />
@@ -376,7 +404,7 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_12-b-1'
   data-id="12-b-1"
-  data-country="Australia"
+  data-country="custom.country-name"
   data-charttitle="Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability"
   data-charttitles="[]"
   data-measurementunit=""
@@ -484,7 +512,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                <p>This table provides metadata for the actual indicator available from Australia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Australian statistics, this table should be consulted for information on national methodology and other Australian-specific metadata information.</p>
+                <p>This table provides metadata for the actual indicator available from Montenegro statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Montenegrin statistics, this table should be consulted for information on national methodology and other Montenegrin-specific metadata information.</p>
 
                 <table class="table">
   
@@ -980,16 +1008,6 @@ data-event-label="Change to indicator.sources tab"
                             
                         </li>
                         <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
                             <a href="/site/about/cookies-and-privacy/">Cookies</a>
                             
                         </li>
@@ -1035,12 +1053,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220708163559'></script>
+<script src='/site/assets/js/sdg.js?v=20220708164610'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220708163559"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220708164610"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
