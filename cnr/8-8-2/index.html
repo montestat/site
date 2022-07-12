@@ -103,7 +103,7 @@ var translations = {
         
         Indikator 8.8.2 -
         
-         - Indikatori za Ciljeve održivog razvoja
+        Nivo nacionalnog poštovanja radnih prava (sloboda udruživanja i kolektivno pregovaranje) na osnovu tekstualnih izvora Međunarodne organizacije rada (ILO) i nacionalnog zakonodavstva, prema polu i statusu migranata - Indikatori za Ciljeve održivog razvoja
     </title>
 
 
@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220708164610">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220712113307">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -191,7 +191,7 @@ layout-indicator
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/cnr/about">O nama</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/cnr/news">Ažuriranja</a>
+    <a class="nav-link" href="/site/cnr/news">Novosti</a>
 </li></ul>
     
                 </div>
@@ -269,12 +269,12 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only"> <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Prikaži potkategorije: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only"> - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Potkategorije - <%=translations.t(fieldItem.field)%></legend>
           <div>
             <button data-type="select">Označi sve</button>
             <button data-type="clear">Obriši sve</button>
@@ -288,10 +288,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Dostupno kada je odabrano '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>'
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          
+          Nema dostupnih opcija zbog gornjih filtera
         </div>
       <% }%>
 
@@ -303,9 +303,9 @@ data-event-label="high"
   
   <% if(units.length > 1) { %>
   
-    <h4></h4>
+    <h4>Jedinica mjere</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Jedinica mjere</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -320,9 +320,9 @@ data-event-label="high"
   
   <% if(serieses.length > 1) { %>
   
-    <h4></h4>
+    <h4>Niz</h4>
     <fieldset>
-      <legend class="sr-only"></legend>
+      <legend class="sr-only">Niz</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -333,7 +333,7 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"","annotation_series_break":"","announce_data_added":"","announce_data_not_available":"","announce_data_removed":"","apply":"","cancel":"","change_breakdowns":"","chart":"","chart_annotation":"","clear_all":"Obriši sve","clear_selections":"Obrišite odabire","data_keyboard_navigation":"","data_not_available":"","data_tabular_alternative":"","dataset_size_warning":"","download_chart":"","download_chart_image":"","download_chart_image_title":"","download_csv":"","download_csv_title":"","download_geojson":"","download_geojson_title":"","download_headline":"","download_headline_title":"","download_source":"","download_source_for_disaggregations":"","download_source_sdmx":"","download_source_sdmx_title":"","download_source_title":"","download_table":"","edit":"","edit_configuration":"","edit_data":"","edit_metadata":"","footnote":"","geographical_area":"","global_metadata":"","global_metadata_blurb":"","headline_data":"","legend_help":"","loading":"","loading_map":"","map":"","map_search":"","map_search_hide":"","map_search_show":"","map_year_slider":"","national_metadata":"","national_metadata_blurb":"","next":"","no_data_hint":"","no_headline_data":"","plot_legend_description":"","previous":"","select_all":"Označi sve","series":"","series_help":"","source":"","sources":"","status":"","sub_categories":"","sub_categories_show":"","table":"","table_column_sort":"","tags":"","unit":"","unit_of_measurement":"","units_type":"","variable_hint":"","view_indicator_list":""};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"Cilj indikatora 2030","annotation_series_break":"Prekid niza","announce_data_added":"Grafik i tabela su ažurirani kako bi uključili podatke.","announce_data_not_available":"Na grafiku i tabeli nema podataka.","announce_data_removed":"Grafik i tabela su ažurirani kako bi se isključili podaci.","apply":"Primijeniti","cancel":"Poništiti","change_breakdowns":"Promjena kvarova","chart":"Grafik","chart_annotation":"Označavanje grafika","clear_all":"Obriši sve","clear_selections":"Obrišite odabire","data_keyboard_navigation":"Pritisnite enter da biste pretraživali podatke pomoću tipki sa strelicama lijevo i desno.","data_not_available":"Ovi podaci nijesu dostupni. Molimo odaberite alternativne podatke za prikaz.","data_tabular_alternative":"Kao alternativu tabelarnih podataka pogledajte Tabelu.","dataset_size_warning":"Previše je skupova podataka za prikaz na grafiku. Neće se sve prikazati dok ne uklonite neke odabire.","download_chart":"Preuzmite CSV grafik","download_chart_image":"Preuzmite sliku grafika","download_chart_image_title":"Preuzmite grafik kao sliku","download_csv":"Preuzmite CSV","download_csv_title":"Preuzmite kao CSV","download_geojson":"Preuzmite GeoJSON","download_geojson_title":"Preuzmite kao GeoJSON","download_headline":"Preuzmite naslovni CSV","download_headline_title":"Preuzmite podatke naslova kao CSV","download_source":"Preuzmite izvorni CSV","download_source_for_disaggregations":"Preuzmite izvorni CSV za disagregacije","download_source_sdmx":"Preuzmite izvorni SDMX","download_source_sdmx_title":"Preuzmite izvorne podatke kao SDMX","download_source_title":"Preuzmite izvorne podatke kao CSV","download_table":"Preuzmite CSV tabelu","edit":"Urediti","edit_configuration":"Urediti konfiguraciju","edit_data":"Urediti podatke","edit_metadata":"Urediti metapodatke","footnote":"Fusnota","geographical_area":"Geografsko područje","global_metadata":"Globalni metapodaci","global_metadata_blurb":"Ova tabela pruža informacije o metapodacima za OCR indikatore kako ih je definisala Statistička komisija UN-a. <a href=\"https://unstats.un.org/sdgs/metadata/\">Kompletne globalne metapodatke</a> obezbjeđuje Odjeljenje za statistiku UN-a.","headline_data":"Naslovni podaci","legend_help":"Kliknite na legendu da uklonite pojedinačne linije sa grafika.","loading":"Učitavanje","loading_map":"Učitavanje mape","map":"Mapa","map_search":"Pretraga","map_search_hide":"Sakrij pretragu","map_search_show":"Prikaži pretragu","map_year_slider":"Klizač za godinu","national_metadata":"Nacionalni metapodaci","national_metadata_blurb":"Ova tabela pruža metapodatke za stvarni indikator koji je dostupan iz statistike %country.name najbliže odgovarajućem globalnom indikatoru COR. Imajte na umu da čak i kada je globalni indikator COR u potpunosti dostupan iz %country.adjective statistike, ovu tabelu treba konsultovati za informacije o nacionalnoj metodologiji i druge informacije o %country.adjective metapodacima.","next":"Sljedeći indikator","no_data_hint":"Nema dostupnih opcija zbog gornjih filtera","no_headline_data":"Nema dostupnih naslovnih podataka","plot_legend_description":"Legenda grafika: lista linija uključenih u grafik","previous":"Prethodni indikator","select_all":"Označi sve","series":"Niz","series_help":"Odaberite kategorije iz padajućih menija u nastavku da vidite različite tipove podataka. Neki neće biti dostupni dok se ne odabere viši nivo.","source":"Izvor","sources":"Izvori","status":"Status indikatora","sub_categories":"Potkategorije","sub_categories_show":"Prikaži potkategorije:","table":"Tabela","table_column_sort":"Kliknite da biste sortirali po ovoj koloni","tags":"Oznake","unit":"Jedinica","unit_of_measurement":"Jedinica mjere","units_type":"Tip jedinica","variable_hint":"Dostupno kada je odabrano '%field'","view_indicator_list":"Pogledajte listu indikatora ovog cilja"};</script>
 
 <script>translations['data'] = {"Age":"Starost","Female":"Žene","Male":"Muškarci","Sex":"Pol","Units":"Jedinica","Value":"Vrijednost","Year":"Godina","aged 0-17 years":"Manje od 18 godina","aged 18-24 years":"18-24 godine","aged 18-64 years":"18-64 godine","aged 25-54 years":"25-54 godine","aged 55-64 years":"55-64 godine","aged over 65 years":"65 ili više godina"};</script>
 
@@ -351,7 +351,7 @@ data-event-label="high"
         </li>
         
         <li class="breadcrumb-item">
-            <a href="/site/cnr/8" title="Promovisati održiv, inkluzivan i održiv ekonomski rast, punu i produktivnu zaposlenost i pristojan rad za sve">Cilj 8</a>
+            <a href="/site/cnr/8" title="Promovisati kontinuiran, inkluzivan i održiv privredni rast, puno i produktivno zaposlenje i dostojanstven rad za sve">Cilj 8</a>
         </li>
         
     </ol>
@@ -365,7 +365,7 @@ data-event-label="high"
         <div class="row">
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <a href="/site/cnr/8" title="">
+                <a href="/site/cnr/8" title="Pogledajte listu indikatora ovog cilja">
                     <img src="https://montestat.github.io/site/assets/img/goals/cnr/8.png"
                         alt="Dostojanstven rad i ekonomski rast - Cilj 8"
                         id="goal-8"
@@ -379,7 +379,7 @@ data-event-label="high"
                         
                         Indikator 8.8.2
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">Nivo nacionalnog poštovanja radnih prava (sloboda udruživanja i kolektivno pregovaranje) na osnovu tekstualnih izvora Međunarodne organizacije rada (ILO) i nacionalnog zakonodavstva, prema polu i statusu migranata</span>
                     </h1>
                 </div>
             </div>
@@ -405,7 +405,7 @@ data-event-label="high"
   data-indicatorid='indicator_8-8-2'
   data-id="8-8-2"
   data-country="custom.country-name"
-  data-charttitle=""
+  data-charttitle="Nivo nacionalnog poštovanja radnih prava (sloboda udruživanja i kolektivno pregovaranje) na osnovu tekstualnih izvora Međunarodne organizacije rada (ILO) i nacionalnog zakonodavstva, prema polu i statusu migranata"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel=""
@@ -450,7 +450,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >Nacionalni metapodaci</button>
         </li>
     
         
@@ -471,7 +471,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Globalni metapodaci</button>
         </li>
     
         
@@ -492,13 +492,13 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Izvori</button>
         </li>
     
     
     
         <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab"></a>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Urediti</a>
         </li>
     
 </ul>
@@ -512,7 +512,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>Ova tabela pruža metapodatke za stvarni indikator koji je dostupan iz statistike Crna Gora najbliže odgovarajućem globalnom indikatoru COR. Imajte na umu da čak i kada je globalni indikator COR u potpunosti dostupan iz crnogorski statistike, ovu tabelu treba konsultovati za informacije o nacionalnoj metodologiji i druge informacije o crnogorski metapodacima.</p>
 
                 <table class="table">
   
@@ -734,7 +734,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane " id="global">
             <article>
-                
+                <p>Ova tabela pruža informacije o metapodacima za OCR indikatore kako ih je definisala Statistička komisija UN-a. <a href="https://unstats.un.org/sdgs/metadata/">Kompletne globalne metapodatke</a> obezbjeđuje Odjeljenje za statistiku UN-a.</p>
 
                 <table class="table">
   
@@ -968,15 +968,15 @@ data-event-label="Change to indicator.sources tab"
   
 
 
-  <a class="btn btn-primary" href="data"></a>
+  <a class="btn btn-primary" href="data">Urediti podatke</a>
   
 
   
-  <a class="btn btn-primary" href="metadata"></a>
+  <a class="btn btn-primary" href="metadata">Urediti metapodatke</a>
   
 
   
-  <a class="btn btn-primary" href="config"></a>
+  <a class="btn btn-primary" href="config">Urediti konfiguraciju</a>
   
 
 </div>
@@ -1052,12 +1052,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220708164610'></script>
+<script src='/site/assets/js/sdg.js?v=20220712113307'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220708164610"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220712113307"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
