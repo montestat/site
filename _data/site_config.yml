@@ -27,8 +27,8 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: custom.country_name
-  adjective: custom.country_adj
+  name: custom.country-name
+  adjective: custom.country-adj
 create_goals:
   layout: goal-with-progress
   previous_next_links: false
@@ -159,8 +159,8 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - cnr
   - en
+  - cnr
 languages_public: []
 logos: []
 map_layers: []
