@@ -1,7 +1,7 @@
 ---
 layout: news
 title: News & Events
-permalink: /cnr/news/
+permalink: /news/
 language: cnr
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /cnr/about/
+permalink: /about/
 language: cnr
 layout: page
 ---

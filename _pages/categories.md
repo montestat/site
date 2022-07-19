@@ -1,6 +1,6 @@
 ---
 layout: categories
-permalink: /cnr/categories/
+permalink: /categories/
 language: cnr
 title: Categories
 ---
