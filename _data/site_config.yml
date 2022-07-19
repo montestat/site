@@ -27,8 +27,8 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: custom.country-name
-  adjective: custom.country-adj
+  name: custom.country_name
+  adjective: custom.country_adj
 create_goals:
   layout: goal-with-progress
   previous_next_links: false
@@ -65,6 +65,7 @@ data_fields:
   units: ''
   series: ''
 date_formats: []
+decimal_separator: ','
 disclaimer:
   phase: ''
   message: ''
@@ -159,10 +160,16 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
   - cnr
+  - en
 languages_public: []
-logos: []
+logos:
+  - language: cnr
+    src: assets/img/logo/cnr/SDG_logo.png
+    alt: Crna Gora
+  - language: en
+    src: assets/img/logo/en/SDG_logo.png
+    alt: Montenegro
 map_layers: []
 map_options:
   minZoom: 5
