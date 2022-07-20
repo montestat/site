@@ -1,7 +1,7 @@
 ---
 layout: categories
-permalink: /cnr/categories/
-language: cnr
+language: en
+permalink: /en/categories/
 title: Categories
 ---
 ## Posts by Category

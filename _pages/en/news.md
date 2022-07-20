@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-permalink: /cnr/news/
-language: cnr
+language: en
+permalink: /en/news/
 ---
 
 ## News and Events

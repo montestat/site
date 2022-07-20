@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact us
-language: en
 permalink: /contact-us/
+language: cnr
 ---
 ### We are interested in your feedback regarding this website and its contents.
 

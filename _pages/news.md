@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-language: en
 permalink: /news/
+language: cnr
 ---
 
 ## News and Events

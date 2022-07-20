@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions (FAQ)
-permalink: /cnr/faq/
-language: cnr
+language: en
+permalink: /en/faq/
 layout: page
 ---
 

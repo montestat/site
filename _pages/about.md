@@ -1,11 +1,11 @@
 ---
 title: About
-language: en
 permalink: /about/
+language: cnr
 layout: page
 ---
 
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
+The [Sustainable Development Goals](https://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
 
   * end poverty
   

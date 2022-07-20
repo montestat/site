@@ -1,7 +1,7 @@
 ---
 layout: categories
-language: en
 permalink: /categories/
+language: cnr
 title: Categories
 ---
 ## Posts by Category
