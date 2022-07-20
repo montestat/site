@@ -64,7 +64,13 @@ data_edit_url: data
 data_fields:
   units: ''
   series: ''
-date_formats: []
+date_formats:
+  - type: standard
+    language: cnr
+    format: "%d.%b.%Y"
+  - type: standard
+    language: en
+    format: "%b %d, %Y"
 decimal_separator: ','
 disclaimer:
   phase: ''
