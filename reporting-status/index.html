@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="cnr" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://montestat.github.io/data/en',
+  remoteDataBaseUrl: 'https://montestat.github.io/data/cnr',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'cnr',
 };
 
 </script>
@@ -99,7 +99,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Indicators For The Sustainable Development Goals</title>
+    <title>Indikatori za Ciljeve održivog razvoja</title>
 
 
 
@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220719165258">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220720062604">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -143,25 +143,25 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-cnr
 layout-reportingstatus
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Podrazumijevani kontrast","disable_high_contrast":"Onemogućite visoki kontrast","disclaimer":"Ovo je razvojna web stranica. Dobrodošle su vaše <a href=\"mailto:%email_contacts.suggestions\">povratne informacije</a>.","enable_high_contrast":"Omogućite visoki kontrast","high_contrast":"Visoki kontrast","internet_explorer_message":"Otkrili smo da koristite Internet Ekplorer da biste posjetili ovu web stranicu. Microsoft sada ukida Internet Ekplorer. Kao rezultat toga, ova web lokacija više ne podržava nijednu verziju Internet Ekplorer-a. Neke funkcije na ovom sajtu neće raditi. Trebalo bi da koristite moderan pretraživač kao što je Edge, Chrome, Firefox ili Safari. Ako imate poteškoća sa instaliranjem ili pristupom drugom pretraživaču, kontaktirajte svoj tim za IT podršku.","internet_explorer_message_title":"Ovaj internet pretraživač više nije podržan","skip_link":"Preskoči na glavni sadržaj","tag_line":"17 ciljeva za transformaciju našeg svijeta","toggle_menu":"Podešavanje menija. Kliknite da biste proširili ili skupili meni.","toggle_search":"Podešavanje pretrage. Kliknite da proširite ili suzite traku za pretraživanje."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Preskoči na glavni sadržaj</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Ovaj internet pretraživač više nije podržan</h2>
+    <p class="internet-explorer-message-body">Otkrili smo da koristite Internet Ekplorer da biste posjetili ovu web stranicu. Microsoft sada ukida Internet Ekplorer. Kao rezultat toga, ova web lokacija više ne podržava nijednu verziju Internet Ekplorer-a. Neke funkcije na ovom sajtu neće raditi. Trebalo bi da koristite moderan pretraživač kao što je Edge, Chrome, Firefox ili Safari. Ako imate poteškoća sa instaliranjem ili pristupom drugom pretraživaču, kontaktirajte svoj tim za IT podršku.</p>
 </div>
 <div id="disclaimer">
     
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:montenegrosdg@gmail.com">feedback</a>.
+    Ovo je razvojna web stranica. Dobrodošle su vaše <a href="mailto:montenegrosdg@gmail.com">povratne informacije</a>.
     
   </div>
 </div>
@@ -172,7 +172,7 @@ layout-reportingstatus
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/logo/cnr/SDG_logo.png" alt="Crna Gora" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -180,23 +180,23 @@ layout-reportingstatus
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
+    <a class="nav-link" href="/site/goals">Ciljevi</a>
 </li><li class="nav-item active">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site/reporting-status">Status izvještavanja</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
+    <a class="nav-link" href="/site/about">O nama</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
+    <a class="nav-link" href="/site/news">Novosti</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Pretraga</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Pretraga">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Pretraga" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -215,11 +215,11 @@ layout-reportingstatus
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Crnogorski
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/cnr/reporting-status/">
-              Montenegrin
+            <a class="dropdown-item" href="/site/en/reporting-status/">
+              Engleski
             </a>
           </li></ul>
   </div>
@@ -229,12 +229,12 @@ layout-reportingstatus
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-cnr list-inline-item">
-            <a class="language-toggle-link" href="/site/cnr/reporting-status/">
-                Montenegrin
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site/en/reporting-status/">
+                Engleski
             </a>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="Omogućite visoki kontrast" aria-label="Omogućite visoki kontrast"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -259,7 +259,7 @@ data-event-label="high"
   <nav>
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         <li class="breadcrumb-item" >
-            <a href="/site/">Home</a>
+            <a href="/site/">Naslovna</a>
         </li>
         <li class="breadcrumb-item active"></li>
     </ol>
@@ -269,13 +269,13 @@ data-event-label="high"
 
   <h1>
   
-    Reporting status
+    Status izvještavanja
   
 </h1>
 
 
 <div class="reporting-status-description">
-  <p>Reporting status provides an overview of how much Sustainable Development Goal (SDG) data custom.country-name reports.</p>
+  <p>Status izvještavanja pruža pregled o količini podataka o Ciljevima održivog razvoja (COR) o kojima se izvještava u Crna Gora.</p>
 
 </div>
 
@@ -288,19 +288,19 @@ data-event-label="high"
   <div class="goal goal-overall">
     <div class="details">
         <h2 class="status-goal">
-            Overall reporting status
+            Ukupan status izvještavanja
         </h2>
-        <span class="total"><span>249</span> indicators</span>
+        <span class="total"><span>249</span> indikatori</span>
         <div class="summary">
             <div class="statuses">
             
             <div>
-                <span class="status notstarted"><span class="status-inner">247</span></span><strong>Exploring data sources</strong><span class="value">99%</span>
+                <span class="status notstarted"><span class="status-inner">247</span></span><strong>Izvori podataka</strong><span class="value">99%</span>
             </div>
             
             
             <div>
-                <span class="status complete"><span class="status-inner">2</span></span><strong>Reported online</strong><span class="value">1%</span>
+                <span class="status complete"><span class="status-inner">2</span></span><strong>Prijavljeno online</strong><span class="value">1%</span>
             </div>
             
             <br style="clear:both;">
@@ -311,39 +311,39 @@ data-event-label="high"
             
             
             
-            <span class="notstarted" style="width:99.19678714859438%" title="Exploring data sources: 99%"></span>
+            <span class="notstarted" style="width:99.19678714859438%" title="Izvori podataka: 99%"></span>
             
             
             
             
             
-            <span class="complete" style="width:0.8032128514056224%" title="Reported online: 1%"></span>
+            <span class="complete" style="width:0.8032128514056224%" title="Prijavljeno online: 1%"></span>
             
             </div>
     </div>
     <br style="clear:both;">
 </div>
-  <h2>Status by goal</h2><div class="goal reporting-status-item">
+  <h2>Status po ciljevima</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/1">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/1.png" alt="Svijet bez siromaštva - Cilj 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/1">No poverty</a>
+            <a href="/site/1">Svijet bez siromaštva</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">92%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Izvori podataka</strong><span class="value">92%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">8%</span>
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Prijavljeno online</strong><span class="value">8%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -354,13 +354,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:92.3076923076923%" title="Exploring data sources: 92%"></span>
+                <span class="notstarted" style="width:92.3076923076923%" title="Izvori podataka: 92%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:7.692307692307693%" title="Reported online: 8%"></span>
+                <span class="complete" style="width:7.692307692307693%" title="Prijavljeno online: 8%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -369,24 +369,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/2">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/2.png" alt="Svijet bez gladi - Cilj 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/2">Zero hunger</a>
+            <a href="/site/2">Svijet bez gladi</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -397,13 +397,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -412,24 +412,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/3">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/3.png" alt="Dobro zdravlje i blagostanje - Cilj 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/3">Good health and well-being</a>
+            <a href="/site/3">Dobro zdravlje i blagostanje</a>
         </h3>
-        <span class="total">28 indicators</span>
+        <span class="total">28 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">28</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">28</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -440,13 +440,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -455,24 +455,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/4">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/4.png" alt="Kvalitetno obrazovanje - Cilj 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/4">Quality education</a>
+            <a href="/site/4">Kvalitetno obrazovanje</a>
         </h3>
-        <span class="total">12 indicators</span>
+        <span class="total">12 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -483,13 +483,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -498,24 +498,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/5">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/5.png" alt="Rodna ravnopravnost - Cilj 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/5">Gender equality</a>
+            <a href="/site/5">Rodna ravnopravnost</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -526,13 +526,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -541,24 +541,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/6">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/6.png" alt="Čista voda i sanitarni uslovi - Cilj 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/6">Clean water and sanitation</a>
+            <a href="/site/6">Čista voda i sanitarni uslovi</a>
         </h3>
-        <span class="total">11 indicators</span>
+        <span class="total">11 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -569,13 +569,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -584,24 +584,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/7">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/7.png" alt="Obnovljiva i dostupna energija - Cilj 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/7">Affordable and clean energy</a>
+            <a href="/site/7">Obnovljiva i dostupna energija</a>
         </h3>
-        <span class="total">6 indicators</span>
+        <span class="total">6 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -612,13 +612,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -627,24 +627,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/8">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/8.png" alt="Decent work and economic growth - Goal 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/8.png" alt="Dostojanstven rad i ekonomski rast - Cilj 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/8">Decent work and economic growth</a>
+            <a href="/site/8">Dostojanstven rad i ekonomski rast</a>
         </h3>
-        <span class="total">16 indicators</span>
+        <span class="total">16 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">16</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">16</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -655,13 +655,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -670,24 +670,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/9">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/9.png" alt="Industrija, inovacije i infrastruktura - Cilj 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/9">Industry, innovation and infrastructure</a>
+            <a href="/site/9">Industrija, inovacije i infrastruktura</a>
         </h3>
-        <span class="total">12 indicators</span>
+        <span class="total">12 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -698,13 +698,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -713,24 +713,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/10">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/10.png" alt="Smanjenje nejednakosti - Cilj 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/10">Reduced inequalities</a>
+            <a href="/site/10">Smanjenje nejednakosti</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -741,13 +741,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -756,24 +756,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/11">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/11.png" alt="Sustainable cities and communities - Goal 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/11.png" alt="Održivi gradovi i zajednice - Cilj 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/11">Sustainable cities and communities</a>
+            <a href="/site/11">Održivi gradovi i zajednice</a>
         </h3>
-        <span class="total">15 indicators</span>
+        <span class="total">15 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -784,13 +784,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -799,24 +799,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/12">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/12.png" alt="Odgovorna potrošnja i proizvodnja - Cilj 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/12">Responsible consumption and production</a>
+            <a href="/site/12">Odgovorna potrošnja i proizvodnja</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -827,13 +827,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -842,24 +842,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/13">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/13.png" alt="Klimatska akcija - Cilj 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/13">Climate action</a>
+            <a href="/site/13">Klimatska akcija</a>
         </h3>
-        <span class="total">8 indicators</span>
+        <span class="total">8 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -870,13 +870,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -885,24 +885,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/14">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/14.png" alt="Život pod vodom - Cilj 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/14">Life below water</a>
+            <a href="/site/14">Život pod vodom</a>
         </h3>
-        <span class="total">10 indicators</span>
+        <span class="total">10 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -913,13 +913,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -928,24 +928,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/15">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/15.png" alt="Život na kopnu - Cilj 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/15">Life on land</a>
+            <a href="/site/15">Život na kopnu</a>
         </h3>
-        <span class="total">15 indicators</span>
+        <span class="total">15 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">93%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Izvori podataka</strong><span class="value">93%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">7%</span>
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Prijavljeno online</strong><span class="value">7%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -956,13 +956,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:93.33333333333333%" title="Exploring data sources: 93%"></span>
+                <span class="notstarted" style="width:93.33333333333333%" title="Izvori podataka: 93%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:6.666666666666667%" title="Reported online: 7%"></span>
+                <span class="complete" style="width:6.666666666666667%" title="Prijavljeno online: 7%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -971,24 +971,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/16">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/16.png" alt="Peace, justice and strong institutions - Goal 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/16.png" alt="Mir, pravda i snažne institucije - Cilj 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/16">Peace, justice and strong institutions</a>
+            <a href="/site/16">Mir, pravda i snažne institucije</a>
         </h3>
-        <span class="total">24 indicators</span>
+        <span class="total">24 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -999,13 +999,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -1014,24 +1014,24 @@ data-event-label="high"
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/site/17">
-        <img src="https://montestat.github.io/site/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="https://montestat.github.io/site/assets/img/goals/cnr/17.png" alt="Partnerstvo za ciljeve - Cilj 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/site/17">Partnerships for the goals</a>
+            <a href="/site/17">Partnerstvo za ciljeve</a>
         </h3>
-        <span class="total">24 indicators</span>
+        <span class="total">24 indikatori</span>
         <div class="summary">
             <div class="statuses">
                 
                 <div>
-                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">24</span></span><strong>Izvori podataka</strong><span class="value">100%</span>
                 </div>
                 
                 
                 <div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Prijavljeno online</strong><span class="value">0%</span>
                 </div>
                 
                 <br style="clear:both;">
@@ -1042,13 +1042,13 @@ data-event-label="high"
                 
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Izvori podataka: 100%"></span>
                 
                 
                 
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Prijavljeno online: 0%"></span>
                 
                 </div>
         <div class="divider"></div>
@@ -1064,7 +1064,7 @@ data-event-label="high"
   
 
   </div>
-  <a href="#top">Back to top</a>
+  <a href="#top">Povratak na početak</a>
 </div>
 <footer role="contentinfo">
     <div class="container">
@@ -1073,15 +1073,15 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Napravljeno koristeći platformu Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/site/contact-us">Contact us</a>
+                            <a href="/site/contact-us">Kontakt</a>
                             
                         </li>
                         <li>
-                            <a href="/site/about/cookies-and-privacy/">Cookies</a>
+                            <a href="/site/about/cookies-and-privacy/">Kolačići</a>
                             
                         </li>
                         
@@ -1119,17 +1119,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'sakriti';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220719165258'></script>
+<script src='/site/assets/js/sdg.js?v=20220720062604'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220719165258"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220720062604"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
