@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -647,29 +650,56 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
+            <p>The indicator is modelled with household survey data compiled by WHO. The information on cooking fuel use and cooking practices comes from about 1440 nationally representative survey and censuses. Survey sources include Demographic and Health Surveys (DHS) and Living Standards Measurement Surveys (LSMS), Multi-Indicator Cluster Surveys (MICS), the World Health Survey (WHS), and other nationally developed and implemented surveys.</p>
+<p>Estimates of primary cooking energy for the total, urban and rural population for a given country and year are obtained together using a single multivariate hierarchical model. Using household survey data as inputs, the model jointly estimates primary reliance on 6 specific fuel types: </p>
+<ol>
+  <li>unprocessed biomass (e.g. wood), </li>
+  <li>charcoal, </li>
+  <li>coal, </li>
+  <li>kerosene, </li>
+  <li>gaseous fuels (e.g. LPG), and </li>
+  <li>electricity; and a final category including other clean fuels (e.g. alcohol). </li>
+</ol>
+<p>Estimates of the proportion of the population with primary reliance on clean fuels and technology (SDG indicator 7.1.2) are then derived by aggregating the estimates for primary reliance on clean fuel types from the model. Details on the model are published in Stoner et al. (2020).</p>
+<p>Only survey data with less than 15% of the population reporting &#x201C;missing&#x201D; and &#x201C;no cooking&#x201D; and &#x201C;other fuels&#x201D; were included in the analysis. Surveys were also discarded if the sum of all mutually exclusive categories reported was not within 97.9-102.1%. Fuel use values were uniformly scaled (divided) by the sum of all mutually exclusive categories excluding &#x201C;missing&#x201D;, &#x201C;no cooking&#x201D; and &#x201C;other fuels&#x201D;.</p>
+<p>Countries classified as high-income according to the World Bank country classification (80 countries) in the 2020 fiscal year were assumed to have fully transitioned to clean household energy and therefore are reported as &gt;95% access to clean technologies.</p>
+<p>No estimates were reported for low- and middle-income countries without data (Bulgaria, Lebanon and Libya). Modelled specific fuel estimates were derived for 128 low- and middle-income countries and 2 countries with no World Bank income classification (Cook Islands and Niue). Estimates of overall clean fuel use were reported for 190 countries.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -788,12 +818,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

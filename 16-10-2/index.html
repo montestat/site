@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -631,7 +634,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metodologija indikatora kako se prati u Crnoj Gori </th>
+        <th scope="row">Metodologija indikatora </th>
         <td>
           
             <p><strong>Definition:</strong></p>
@@ -729,29 +732,293 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Metoda računanja </th>
+        <td>
           
+            <p>Responses to the survey will be computed using a weighted system, where each question values between 0 and 2. There is a total of 8 key questions (4 for the component on &#x201C;Adoption&#x201D; and 3 for the component on &#x201C;Implementation&#x201D;). A country can obtain a total score between 0-9 points. </p>
+<p>The total score of each country will not be assigned to any level category (e.g.: low, medium or high). However, it will contribute to global aggregates, in which data will be interpreted using the sum formula to show overall trends. The trends will illustrate the state of Access to Information implementation as per &#x201C;Principles of Access to Information&#x201D;, as cited in the Rationale section above.</p>
+<p>The table below show how questions are computed.</p>
+<table>
+  <tbody>
+    <tr>
+      <td colspan="3">
+        <p><strong>UNESCO Survey on Public Access to Information </strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p><strong>Indicator: 16.10.2</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p><strong>Components: Adoption + Implementation; Score: 0-9</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p><strong>Component 1: ADOPTION; Score: 0-5</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Survey Question based on Principles of Access to Information</strong></p>
+      </td>
+      <td>
+        <p><strong> Score </strong></p>
+      </td>
+      <td>
+        <p><strong>Description of the calculation for global aggregates</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether a constitutional, statutory and/or other legal guarantee that recognises access to information as a fundamental right exists in your country? </li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes = 1</p>
+        <p>No = 0</p>
+        <p>In progress: 0.5</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes&#x201D; and &#x201C;in progress&#x201D;</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether the legal guarantee on Access to Information specifies the need of a dedicated oversight institution [or institutions]?</li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes = 1</p>
+        <p>No = 0</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes&#x201D;</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether the legal guarantee on Access to Information specifies the need for national public bodies (Ministry/Agency/Department) to appoint public information officers or a specific unit to handle Access to Information requests from the public? </li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes, to <em>ALL</em> public bodies being required to appoint = 1 </p>
+        <p>Yes, but only to <em>some</em> public bodies = 0.5 </p>
+        <p>No = 0</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes, all&#x201D; and &#x201C;yes, some&#x201D;</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether the legal guarantee on Access to Information mandates the following roles for the dedicated Access to Information oversight institution/s :</li>
+          <li>Oversight (legal responsibility to ensure implementation of the guarantee)</li>
+          <li>Appeals</li>
+          <li>Monitoring of Access to Information implementation</li>
+          <li>Enforcement of compliance with Access to Information legal guarantee(s)</li>
+          <li>Mediation</li>
+        </ol>
+      </td>
+      <td>
+        <p>0.2 for each role selected</p>
+        <p>Total point: 1 </p>
+      </td>
+      <td>
+        <p>The sum of countries that responded, &#x201C;option a&#x201D;, &#x201C;option b&#x201D;, &#x201C;option c&#x201D;, &#x201C;option d&#x201D; and &#x201C;option e&#x201D; </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Does the legal guarantee on Access to Information explicitly mentions permissible exemptions that are elaborated in well-defined categories whereby requests for information may be legally denied. that are consistent with international standards?</li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes = 1</p>
+        <p>No = 0</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes&#x201D;</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Score for Component 1</strong></p>
+      </td>
+      <td>
+        <p><strong>0-5</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <p><strong>Component 2: IMPLEMENTATION; Score: 0-4</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Survey Question based on Principles of Access to Information</strong></p>
+      </td>
+      <td>
+        <p><strong>Score</strong></p>
+      </td>
+      <td>
+        <p><strong>Description of the calculation for global aggregates</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether the dedicated Access to Information oversight institution/s in practice during the reporting year has carried out the following activities: </li>
+          <li>Published an Annual Report</li>
+          <li>Provided implementation guidance and/or offer training to officials from public bodies (Ministry/Agency/Department)</li>
+          <li>Raised public awareness</li>
+          <li>Kept statistics on requests and/or appeals </li>
+          <li>Requested public bodies to keep statistics of their activities and decisions</li>
+        </ol>
+      </td>
+      <td>
+        <p>0.4 for each activity selected</p>
+        <p>Total point: 2 </p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;option a&#x201D;; &#x201C;option b&#x201D; ; &#x201C;option c&#x201D;; &#x201C;option d&#x201D;; &#x201C;option e&#x201D; </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether in practice the dedicated Access to Information oversight institution/s at the national level receive/s reports from public bodies (Ministry/Agency/Department) on the processing of Access to Information requests?</li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes = 1</p>
+        <p>No = 0</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes&#x201D;.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ol>
+          <li>Whether the dedicated Access to Information oversight institution/s keep/s statistics of appeals at the national level?</li>
+        </ol>
+      </td>
+      <td>
+        <p>Yes = 1</p>
+        <p>No = 0</p>
+      </td>
+      <td>
+        <p>The sum of countries that responded &#x201C;yes&#x201D;.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Score for Component 2</strong></p>
+      </td>
+      <td>
+        <p><strong>0-4</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Total Score for the Survey (component 1 and 2)</strong></p>
+      </td>
+      <td>
+        <p><strong>0-9</strong></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>The scenario below can provide an example of how a country obtains its score:</p>
+<p>Country X responded to the survey and based on its responses, it obtained points, as in below:</p>
+<ul>
+  <li>Question 1: responded &#x2018;YES&#x2019; and obtained 1 point</li>
+  <li>Question 2: responded &#x2018;YES&#x2019; and obtained 1 point</li>
+  <li>Question 3: responded &#x2018;NO&#x2019; and obtained 0 point</li>
+  <li>Question 4: selected three of five options provided. Each answer has 0.2 point, so it obtained 0.6 point. </li>
+  <li>Question 5: responded &#x2018;NO&#x2019; and obtained 0 point. </li>
+  <li>Question 6: selected four of five options provided. Each answer has 0.4 point and obtained 1.6 point. </li>
+  <li>Question 7: responded &#x2018;NO and obtained 0 point</li>
+  <li>Question 8: responded &#x2018;YES and obtained 1 point</li>
+</ul>
+<p>Therefore, Country X obtained a total score of 5.2. This score will not be assigned to any level category (e.g.: low, medium or high). However, it will contribute to global aggregates, in which data will be interpreted using the sum formula to show trends. </p>
+<p>Below is an example of how responses to the survey are used in the interpretation of a global aggregate that illustrate a trend in the &#x201C;Record keeping and reporting&#x201D; principle: </p>
+<p>Out of 100 countries that responded to UNESCO Survey on Public Access to Information (SDG Indicator 16.10.2), 80% have oversight institutions on Access to Information (ATI). However, only 50% of them keep records of appeals with regards RTI requests. This flags the need for improvement, as good record-keeping is vital for evidence-based reporting, which can provide many advantages for improving ATI. Without adequate and reliable records of the requests received and how they are processed, it is difficult to produce evidence and measure progress. </p>
+<p>In addition, where applicable, supplementary data will be collected through follow-up questions, which will not be scored and will be used to contextualize UNESCO&#x2019;s analysis. The follow-up questions are as follow:</p>
+<ul>
+  <li>Question 1<ul>
+      <li>If responded &#x2018;YES&#x2019;: What are the guarantees (by type &#x2013; primary legislation, secondary legislation/regulation, binding policy document, etc)?</li>
+      <li>If responded &#x2018;NO&#x2019;: Are there still any non-binding policies on Access to Information (Public Statement such Open Government Partnership Action Plan; Strategy such as in Open Government/Open Data/ Open Access; Master or Action Plan/ SOP/ protocols/ digital or e-government policies relating to implementation of ATI; or Others) - then &#x2018;End survey&#x2019;. </li>
+      <li>If responded &#x2018;IN PROGRESS&#x2019;: Please explain - then &#x2018;End survey&#x2019;</li>
+    </ul>
+  </li>
+  <li>Question 2, if responded &#x2018;YES&#x2019;: <ul>
+      <li>
+        <ol>
+          <li>What is it / are they? (by type: Information Commission or Commissioner/ Data Protection or privacy Commission or Commissioner/ Converged body that combines data/privacy protection and Access to Information/ Human Rights Commission/ Ombudsman/ Department or Ministry or/ Agency or Other; and specify where appropriate at national or subnational levels).</li>
+          <li>Who appointed the Head of the oversight institution? (Executive/ Legislative/ Judiciary/ Other (e.g. a Committee): ________________ please explain)</li>
+          <li>Who approved the budget of the oversight institution [or institutions]? (Executive/ Legislative/ Judiciary/ Other (e.g. a multistakeholder committee): ________________ please explain)</li>
+          <li>To whom does/do the oversight institution/s directly report about their activities? (Executive/ Legislative/ Other (e.g. a Committee): ________________ please explain)</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Question 5, if responded &#x2018;YES&#x2019;: Which of the following exemptions is/are mentioned: national security; international relations; public health and safety; the prevention, investigation and prosecution of legal wrongs; privacy; legitimate commercial and other economic interests; management of the economy; fair administration of justice and legal advice privilege; conservation of the environment; and legitimate policy making and other operations of public bodies.</li>
+  <li>Question 6, if one of the options is selected: Any other initiatives/activities that you would like to add?</li>
+  <li>Question 7, if responded &#x2018;YES&#x2019;: <ol>
+      <li>Choose reference year</li>
+      <li>How many formal requests made under the Access to Information guarantee(s)&#x2026; Received; Granted (fully; partially; total); Denied; Dismissed as ineligible?</li>
+      <li>Do you keep disaggregated data on the reasons for non-disclosure and partial disclosure on the basis of the permissible exemptions as stipulated in your country&#x2019;s legal guarantee? (Yes/No): </li>
+    </ol>
+  </li>
+  <li>Question 8, if responded &#x2018;YES&#x2019;:</li>
+</ul>
+<ol>
+  <li>Choose reference year</li>
+  <li>How many appeals that your institution&#x2026; Received?; Granted (fully; partially; total)?; Denied; Dismissed as ineligible? </li>
+  <li>Do you keep disaggregated data on the reasons for non-disclosure and partial disclosure on the basis of the permissible exemptions as stipulated in your country&#x2019;s legal guarantee? (Yes/No). </li>
+</ol>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -870,12 +1137,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

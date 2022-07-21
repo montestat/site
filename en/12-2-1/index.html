@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -645,29 +648,228 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
+            <p>Material footprint by type of raw material (tonnes) is calculated as:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>M</mi>
+    <mi>F</mi>
+    <mo>=</mo>
+    <mi>&amp;nbsp;</mi>
+    <msub>
+      <mrow>
+        <mi>D</mi>
+        <mi>E</mi>
+        <mo>+</mo>
+        <mi>&amp;nbsp;</mi>
+        <mi>R</mi>
+        <mi>M</mi>
+        <mi>E</mi>
+      </mrow>
+      <mrow>
+        <mi>I</mi>
+        <mi>M</mi>
+      </mrow>
+    </msub>
+    <mo>-</mo>
+    <mi>&amp;nbsp;</mi>
+    <msub>
+      <mrow>
+        <mi>R</mi>
+        <mi>M</mi>
+        <mi>E</mi>
+      </mrow>
+      <mrow>
+        <mi>E</mi>
+        <mi>X</mi>
+        <mi>&amp;nbsp;</mi>
+      </mrow>
+    </msub>
+  </math></p>
+<p>Where: </p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>M</mi>
+    <mi>F</mi>
+  </math> &#x2013; material footprint;</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>D</mi>
+    <mi>E</mi>
+  </math><em> </em>&#x2013; domestic extraction of materials;</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+      <mrow>
+        <mi>R</mi>
+        <mi>M</mi>
+        <mi>E</mi>
+      </mrow>
+      <mrow>
+        <mi>I</mi>
+        <mi>M</mi>
+      </mrow>
+    </msub>
+  </math> &#x2013; raw material equivalent of imports;</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+      <mrow>
+        <mi>R</mi>
+        <mi>M</mi>
+        <mi>E</mi>
+      </mrow>
+      <mrow>
+        <mi>E</mi>
+        <mi>X</mi>
+      </mrow>
+    </msub>
+  </math> &#x2013; raw material equivalents of exports.</p>
+<p> </p>
+<p>For the attribution of the primary material needs of final demand a global, multi-regional input-output (MRIO) framework is employed. The attribution method based on I-O analytical tools is described in detail in Wiedmann et al. 2015. It is based on the Eora MRIO framework developed by the University of Sydney, Australia (Lenzen et al. 2013) which is an internationally well-established and the most detailed and reliable MRIO framework available to date. </p>
+<p>Material footprint per capita, by type of raw material (tonnes), is calculated as:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>M</mi>
+    <mi>F</mi>
+    <mi>&amp;nbsp;</mi>
+    <mi>p</mi>
+    <mi>e</mi>
+    <mi>r</mi>
+    <mi>&amp;nbsp;</mi>
+    <mi>c</mi>
+    <mi>a</mi>
+    <mi>p</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>a</mi>
+    <mo>=</mo>
+    <mi>&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mi>M</mi>
+        <mi>F</mi>
+      </mrow>
+      <mrow>
+        <mi>A</mi>
+        <mi>n</mi>
+        <mi>n</mi>
+        <mi>u</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>a</mi>
+        <mi>v</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi>a</mi>
+        <mi>g</mi>
+        <mi>e</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>p</mi>
+        <mi>o</mi>
+        <mi>l</mi>
+        <mi>u</mi>
+        <mi>l</mi>
+        <mi>a</mi>
+        <mi>t</mi>
+        <mi>i</mi>
+        <mi>o</mi>
+        <mi>n</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Material footprint per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollar), is calculated as:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>M</mi>
+    <mi>F</mi>
+    <mi>&amp;nbsp;</mi>
+    <mi>p</mi>
+    <mi>e</mi>
+    <mi>r</mi>
+    <mi>&amp;nbsp;</mi>
+    <mi>G</mi>
+    <mi>D</mi>
+    <mi>P</mi>
+    <mo>=</mo>
+    <mi>&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mi>M</mi>
+        <mi>F</mi>
+      </mrow>
+      <mrow>
+        <mi>G</mi>
+        <mi>D</mi>
+        <mi>P</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>n</mi>
+        <mi>s</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>&amp;nbsp;</mi>
+        <mn>2015</mn>
+        <mi>&amp;nbsp;</mi>
+        <mi>U</mi>
+        <mi>n</mi>
+        <mi>i</mi>
+        <mi>t</mi>
+        <mi>e</mi>
+        <mi>d</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>S</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>t</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+        <mi>&amp;nbsp;</mi>
+        <mi>D</mi>
+        <mi>o</mi>
+        <mi>l</mi>
+        <mi>l</mi>
+        <mi>a</mi>
+        <mi>r</mi>
+        <mi>s</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -786,12 +988,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

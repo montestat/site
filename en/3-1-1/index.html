@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -648,29 +651,245 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
+            <p>The maternal mortality ratio can be calculated by dividing recorded (or estimated) maternal deaths by total recorded (or estimated) live births in the same period and multiplying by 100 000. Measurement requires information on pregnancy status, timing of death (during pregnancy, childbirth, or within 42 days of termination of pregnancy), and cause of death.</p>
+<p>The maternal mortality ratio can be calculated directly from data collected through vital registration systems, household surveys or other sources. There are often data quality problems, particularly related to the underreporting and misclassification of maternal deaths. Therefore, data are often adjusted in order to take these data quality issues into account. Some countries undertake these adjustments or corrections as part of specialized/confidential enquiries or administrative efforts embedded within maternal mortality monitoring programmes.</p>
+<p><strong>Bayesian maternal mortality estimation model (the BMat model):</strong></p>
+<p>Estimation and projection of maternal mortality indicators are undertaken using the BMat model. This model is intended to ensure that the MMR estimation approach is consistent across all countries but remains flexible in that it is based on covariate-driven trends to inform estimates in countries or country-periods with limited information; captures observed trends in countries with longer time series of observations; and takes into account the differences in stochastic and sampling errors across observations.</p>
+<p>The model is summarized as follows:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mrow>
+        <mi mathvariant="normal">log</mi>
+      </mrow>
+      <mo>&#x2061;</mo>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>E</mi>
+            <mi>P</mi>
+            <msup>
+              <mrow>
+                <mi>M</mi>
+              </mrow>
+              <mrow>
+                <mi>N</mi>
+                <mi>A</mi>
+              </mrow>
+            </msup>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mrow>
+        <mi>b</mi>
+      </mrow>
+      <mrow>
+        <mn>0</mn>
+      </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>b</mi>
+      </mrow>
+      <mrow>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mrow>
+      <mrow>
+        <mi mathvariant="normal">log</mi>
+      </mrow>
+      <mo>&#x2061;</mo>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>G</mi>
+            <mi>D</mi>
+            <mi>P</mi>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>b</mi>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+      </mrow>
+    </msub>
+    <mrow>
+      <mrow>
+        <mi mathvariant="normal">log</mi>
+      </mrow>
+      <mo>&#x2061;</mo>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>G</mi>
+            <mi>F</mi>
+            <mi>R</mi>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mrow>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>b</mi>
+      </mrow>
+      <mrow>
+        <mn>3</mn>
+      </mrow>
+    </msub>
+    <mi>S</mi>
+    <mi>B</mi>
+    <mi>A</mi>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>&#x3B3;</mi>
+      </mrow>
+      <mrow>
+        <mi>j</mi>
+      </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+      <mrow>
+        <mi>&#x3C6;</mi>
+      </mrow>
+      <mrow>
+        <mi>k</mi>
+      </mrow>
+    </msub>
+  </math></p>
+<p>Where:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>E</mi>
+    <mi>P</mi>
+    <msup>
+      <mrow>
+        <mi>M</mi>
+      </mrow>
+      <mrow>
+        <mi>N</mi>
+        <mi>A</mi>
+      </mrow>
+    </msup>
+  </math>= the expected proportion of non-HIV-related deaths to women aged 15&#x2013;49 years that are due to maternal causes [NA = non-HIV; formerly it referred to &#x201C;non-AIDS&#x201D;]</p>
+<p><em>GDP </em>= gross domestic product per capita (in 2011 PPP US dollars)</p>
+<p><em>GFR </em>= general fertility rate (live births per woman aged 15&#x2013;49 years)</p>
+<p><em>SBA </em>= proportion of births attended by skilled health personnel</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+      <mrow>
+        <mi>&#x3B3;</mi>
+      </mrow>
+      <mrow>
+        <mi>j</mi>
+      </mrow>
+    </msub>
+  </math><em> </em>= random intercept term for country j</p>
+<p><em>&#x3C6;k </em>= random intercept term for region k.</p>
+<p>For countries with data available on maternal mortality, the expected proportion of non-HIV-related maternal deaths was based on country and regional random effects, whereas for countries with no data available, predictions were derived using regional random effects only. </p>
+<p>The resulting estimates of the <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>E</mi>
+    <mi>P</mi>
+    <msup>
+      <mrow>
+        <mi>M</mi>
+      </mrow>
+      <mrow>
+        <mi>N</mi>
+        <mi>A</mi>
+      </mrow>
+    </msup>
+  </math> were used to obtain the expected non-HIV MMR through the following relationship:</p>
+<p><em>Expected non-HIV MMR =EPM<sup>NA</sup>*(1-a)*E/B</em></p>
+<p>Where: </p>
+<p><em>a</em> = the proportion of HIV-related deaths among all deaths to women aged 15&#x2013;49 years</p>
+<p>E = the total number of deaths to women of reproductive age</p>
+<p>B = the number of births.</p>
+<p><em>Estimation of HIV-related indirect maternal deaths:</em></p>
+<p>For countries with generalized HIV epidemics and high HIV prevalence, HIV/AIDS is a leading cause of death during pregnancy and post-delivery. There is also some evidence from community studies that women with HIV infection have a higher risk of maternal death, although this may be offset by lower fertility. If HIV is prevalent, there will also be more incidental HIV deaths among pregnant and postpartum women. When estimating maternal mortality in these countries, it is, thus, important to differentiate between incidental HIV deaths (non-maternal deaths) and HIV-related indirect maternal deaths (maternal deaths caused by the aggravating effects of pregnancy on HIV) among HIV-positive pregnant and postpartum women who have died (i.e. among all HIV-related deaths occurring during pregnancy, childbirth and puerperium).</p>
+<p>The number of HIV-related indirect<strong><em> </em></strong>maternal deaths <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msup>
+      <mrow>
+        <mi>D</mi>
+      </mrow>
+      <mrow>
+        <mi>H</mi>
+        <mi>I</mi>
+        <mi>V</mi>
+      </mrow>
+    </msup>
+  </math>, is estimated by:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msup>
+      <mrow>
+        <mi>D</mi>
+      </mrow>
+      <mrow>
+        <mi>H</mi>
+        <mi>I</mi>
+        <mi>V</mi>
+      </mrow>
+    </msup>
+    <mo>=</mo>
+    <mi>a</mi>
+    <mo>&#x2219;</mo>
+    <mi>E</mi>
+    <mo>&#x2219;</mo>
+    <mi>v</mi>
+    <mo>&#x2219;</mo>
+    <mi>u</mi>
+  </math></p>
+<p>Where: </p>
+<p>a*E = the total number of HIV-related deaths among all deaths to women aged 15&#x2013;49.</p>
+<p><em>v = </em>is the proportion of HIV-related deaths to women aged 15&#x2013;49 that occur during pregnancy. The value of <em>v </em>can be computed as follows: <em>v </em>= <em>c k GFR / [</em>1 + <em>c</em>(<em>k-</em>1) <em>GFR] </em>where<strong> </strong>GFR is the general fertility rate, and where<em> c </em>is the average exposure time (in years) to the risk of pregnancy-related mortality per live birth (set equal to 1 for this analysis), and where <em>k </em>is the relative risk of dying from AIDS for a pregnant versus a non-pregnant woman (reflecting both the decreased fertility of HIV-positive women and the increased mortality risk of HIV-positive pregnant women). The value of <em>k </em>was set at 0.3.</p>
+<p>u = is the fraction of pregnancy-related AIDS deaths assumed to be indirect maternal deaths. The UN MMEIG/TAG reviewed available study data on AIDS deaths among pregnant women and recommended using <em>u = </em>0.3.</p>
+<p>For observed PMs, we assumed that the total reported maternal deaths are a combination of the proportion of reported non-HIV-related maternal deaths and the proportion of reported HIV-related (indirect) maternal deaths, where the latter is given by a*v for observations with a &#x201C;pregnancy-related death&#x201D; definition and a*v*u for observations with a &#x201C;maternal death&#x201D; definition.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -789,12 +1008,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

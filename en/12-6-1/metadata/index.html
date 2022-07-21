@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -333,7 +333,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"un_designated_tier":{"type":"string","format":"markdown","title":"Nivo UN","description":"Scope: global, Field: un_designated_tier"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"DATA_COMP__GLOBAL":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: global, Field: DATA_COMP__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"DATA_COMP":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: national, Field: DATA_COMP"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
     
       
         
@@ -530,6 +530,20 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "<p>Companies will be counted towards the indicator if they publish sustainability information covering the following sustainability disclosures:</p>\n<p><strong>Minimum Requirement:</strong></p>\n<p><strong>Institutional and governance: </strong></p>\n<ul>\n  <li>Materiality assessment* </li>\n  <li>Sustainability strategy and/or principles related to sustainability</li>\n  <li>Management approach to address materiality topics</li>\n  <li>Governance structure, including for economic, environmental and social issues</li>\n  <li>Key impacts, risks, opportunities </li>\n  <li>Anti-fraud, anti-corruption and anti-competitive behaviour practices</li>\n</ul>\n<p><strong>Economic:</strong></p>\n<ul>\n  <li>Direct measure of economic performance (revenue, net profit, value added, payouts to shareholders)</li>\n  <li>Indirect measure of economic performance (community investment, investment in infrastructure or other significant local economic impact)</li>\n</ul>\n<p><strong>Environmental:</strong></p>\n<ul>\n  <li>Energy consumption and energy efficiency</li>\n  <li>Water consumption, wastewater generation, integrated water resource management practices, or water recycling/re-use and efficiency</li>\n  <li>Greenhouse gas emissions</li>\n  <li>Other emissions and effluents, including Ozone-depleting substances, Nitrogen Oxides (NOX), Sulphur Oxides (SOX), and chemicals</li>\n  <li>Waste generation, including hazardous wastes</li>\n  <li>Waste minimisation and recycling practices</li>\n  <li>Use and/or production of hazardous chemicals and substances</li>\n</ul>\n<p><strong>Social:</strong></p>\n<ul>\n  <li>Occupational health and safety</li>\n  <li>Total number of employees, by contract type and gender</li>\n  <li>Employee training </li>\n  <li>Unfair and illegal labour practices and other human rights considerations</li>\n  <li>Diversity, equal opportunity and discrimination in governance bodies and among employees</li>\n  <li>Worker rights and collective agreements</li>\n</ul>\n<p>The methodology will make allowance for application of the <strong><u>&#x2018;comply or explain&#x2019; principle for the minimum standard</u></strong>, which allows reporting entities to highlight why certain disclosures are not relevant for their specific company and make it more accessible to small companies. However, this would not apply to issues that have been identified as material to the company, on which they are expected to report.</p>\n<p>Advanced level requirement:</p>\n<p>As for minimum requirement, with the following additional disclosures and/or indicators: </p>\n<p><strong>Institutional and governance: </strong></p>\n<ul>\n  <li>Details of supply chain</li>\n  <li>Details of stakeholder engagement surrounding sustainability performance</li>\n  <li>Details of remuneration</li>\n</ul>\n<p><strong>Economic</strong></p>\n<ul>\n  <li>Sustainable public procurement policies and practices</li>\n  <li>Percentage or proportion of local suppliers/procurement</li>\n  <li>Charitable donations</li>\n</ul>\n<p><strong>Environmental</strong></p>\n<ul>\n  <li>Supplier environmental assessment</li>\n  <li>Material consumption, sourcing of materials and reclaimed or recycled materials used</li>\n  <li>Energy intensity and renewable energy sources</li>\n  <li>Water intensity and Integrated water resource management</li>\n  <li>GHG intensity</li>\n  <li>Waste intensity</li>\n  <li>Biodiversity impacts</li>\n  <li>Supplier and consumer/customer engagement on environmental issues</li>\n</ul>\n<p><strong>Social</strong></p>\n<ul>\n  <li>Supplier social assessment</li>\n  <li>Local community impacts</li>\n  <li>Supplier and consumer engagement on sustainability issues</li>\n</ul>");
+        var propertyEditor = editor.getEditor('root.DATA_COMP__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP__GLOBAL');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP__GLOBAL'));
+
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
@@ -546,7 +560,7 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.methodology_start_date'));
 
@@ -679,12 +693,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

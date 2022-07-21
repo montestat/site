@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -333,7 +333,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"un_designated_tier":{"type":"string","format":"markdown","title":"Nivo UN","description":"Scope: global, Field: un_designated_tier"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"DATA_COMP__GLOBAL":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: global, Field: DATA_COMP__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"DATA_COMP":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: national, Field: DATA_COMP"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
     
       
         
@@ -530,6 +530,20 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "<p>Step 1 Identify the transboundary surface waters and aquifers in the territory of the country</p>\n<p>While the identification of transboundary surface water is relatively straightforward, the identification of transboundary aquifers often requires more considered investigations.</p>\n<p>If there are no transboundary surface waters or groundwaters, reporting is not applicable.</p>\n<p>Step 2 Calculate the surface area of each transboundary basin and the total sum</p>\n<p>Commonly at least the basins of the rivers and lakes have been delineated through topographic maps and the basin area is known or easily measurable. </p>\n<p>The total transboundary surface area in the country is the sum of the surface areas in the country of each of the transboundary basins and aquifers (expressed in km2). Transboundary areas for different types of systems (e.g. river and lakes basin and aquifers) or multiple aquifers may overlap. The area of transboundary aquifers, even if located within a transboundary river or lake basin, should be added to be able to track progress of cooperation on transboundary aquifers. </p>\n<p>The calculations can most easily be carried with Geographical Information Systems (GIS). Once generated, with appropriate tools for spatial analysis, the shapes of the surface river and lake basins and the aquifers can be used to report both disaggregated (for the surface water basin or aquifer) and aggregated (agreement exists on either one).</p>\n<p>Step 3 Review existing arrangements for transboundary water cooperation and verify which transboundary waters are covered</p>\n<p>Some operational arrangements for transboundary water cooperation in place cover both surface waters and groundwaters (and their associated river and lakes basins and aquifers). In such cases, it should be clear that the geographical extent of both is used to calculate the indicator value. In other cases, the area of application may be limited to a border section of the river basin or sub-basin and in such cases only the corresponding area should be considered as potentially having an operational arrangement for calculating the indicator value. At the end of this step, it should be known which transboundary basins are covered by arrangements for transboundary water cooperation (and their respective areas). </p>\n<p>Step 4 Check which of the existing arrangements for transboundary water cooperation are operational</p>\n<p>The following check-list allows countries to determinine whether the cooperation arrangement on a particular basin or in relation to a particular country is operational:</p>\n<p>- does a joint body or mechanism for transboundary water cooperation exist? </p>\n<p>- are there at least annual (on average) formal communication in form of meetings, either at the political and/or technical level?</p>\n<p>- has a joint or coordinated water management plan(s), or of joint objectives been adopted? </p>\n<p>- is there at least annual (on average) exchange of information and data?</p>\n<p>If any of the conditions are not met, the arrangement for transboundary water cooperation cannot be considered operational. This information is currently available in countries and can also be withdrawn from global, regional or basin databases.</p>\n<p>Step 5 Calculate the indicator value</p>\n<p>Calculate the indicator value, by adding up the total surface area in the country of the transboundary surface waters or aquifers that are covered by an operational cooperation arrangement and dividing it by the total summed up area in the country of all transboundary basins (including aquifers). The sum should then be multiplied by 100 to obtain a percentage.</p>");
+        var propertyEditor = editor.getEditor('root.DATA_COMP__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP__GLOBAL');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP__GLOBAL'));
+
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
@@ -546,7 +560,7 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.methodology_start_date'));
 
@@ -679,12 +693,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

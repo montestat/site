@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -944,6 +944,7 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+  
       
         
       
@@ -1072,7 +1073,9 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
+      
+        
+          
   
   
   
@@ -1199,29 +1202,45 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
+            <p>To measure poverty across countries consistently, the World Bank&#x2019;s international measures apply a common standard, anchored to what &#x201C;poverty&#x201D; means in the world&#x2019;s poorest countries. The original &#x201C;$1-a-day&#x201D; line was based on a compilation of national lines for only 22 developing countries, mostly from academic studies in the 1980s (Ravallion, et al., 1991). While this was the best that could be done at the time, the sample was hardly representative of developing countries even in the 1980s. Since then, national poverty lines have been developed for many other countries. Based on a new compilation of national lines for 75 developing countries, Ravallion, Chen and Sangraula (RCS) (2009) proposed a new international poverty line of $1.25 a day. This is the average poverty line for the poorest 15 countries in their data set. </p>
+<p>The current extreme poverty line is set at $1.90 a day in 2011 PPP terms, which represents the mean of the national poverty lines found in the same poorest 15 countries ranked by per capita consumption. The new poverty line maintains the same standard for extreme poverty - the poverty line typical of the poorest countries in the world - but updates it using the latest information on the cost of living in developing countries. </p>
+<p>When measuring international poverty of a country, the international poverty line at PPP is converted to local currencies in 2011 price and is then converted to the prices prevailing at the time of the relevant household survey using the best available Consumer Price Index (CPI). (Equivalently, the survey data on household consumption or income for the survey year are expressed in the prices of the ICP base year, and then converted to PPP $&#x2019;s.) Then the poverty rate is calculated from that survey. All inter-temporal comparisons are real, as assessed using the country-specific CPI. Interpolation/extrapolation methods are used to line up the survey-based estimates with these reference years.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -1248,6 +1267,8 @@ data-event-label="Change to indicator.sources tab"
     <div class="col-md-6">
       
       <table class="table">
+  
+  
   
   
   
@@ -1308,7 +1329,6 @@ data-event-label="Change to indicator.sources tab"
       
         
           
-  
   
   
 </table>
@@ -1414,12 +1434,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

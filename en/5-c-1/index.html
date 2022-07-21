@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -728,29 +731,664 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
+            <p>Data is collected via a questionnaire comprising 13 binary (Yes/No) questions to assess whether a country has a system in place to track and make public allocations for gender equality and women&#x2019;s empowerment.</p>
+<p><strong>Scoring:</strong></p>
+<p>Each criterion is weighted equally. A country would need to satisfy the threshold of &#x201C;yes&#x201D; responses per criterion. A country will be considered to satisfy each criterion as follows: </p>
+<table>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>
+        <p><strong>Requirements per criterion</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>A country will satisfy Criterion 1</p>
+      </td>
+      <td>
+        <p>if it answers &#x201C;Yes&#x201D; to 2 out of 3 questions in Criterion 1</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>A country will satisfy Criterion 2</p>
+      </td>
+      <td>
+        <p>if it answers &#x201C;Yes&#x201D; to 4 out of 7 questions in Criterion 2</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>A country will satisfy Criterion 3</p>
+      </td>
+      <td>
+        <p>if it answers &#x201C;Yes&#x201D; to 2 out of 3 questions in Criterion 3</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>Countries then will be classified as &#x2018;fully meets requirements&#x2019;, &#x2018;approaches requirements&#x2019;, and &#x2018;does not meet requirements&#x2019; per the following matrices (There are 8 possible combinations of criteria being satisfied, Cases A-G below):</p>
+<table>
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <p><strong>Fully meets requirements</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 1</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 2</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 3</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case A</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Note</strong>: &#x201C;Checked&#x201D; boxes represent satisfied criteria; </p>
+<p>&#x201C;unchecked&#x201D; boxes represent unsatisfied criteria.</p>
+<table>
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <p><strong>Approaches requirements</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 1</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 2</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 3</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case B</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case C</strong></p>
+      </td>
+      <td></td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case D</strong></p>
+      </td>
+      <td></td>
+      <td></td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case E</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case F</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td></td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case G</strong></p>
+      </td>
+      <td></td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+      <td>
+        <p><strong>&#xFC;</strong></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Note</strong>: &#x201C;Checked&#x201D; boxes represent satisfied criteria; </p>
+<p>&#x201C;unchecked&#x201D; boxes represent unsatisfied criteria.</p>
+<table>
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <p><strong>Does not meet requirements</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 1</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 2</strong></p>
+      </td>
+      <td>
+        <p><strong>Criterion 3</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>Case H</strong></p>
+      </td>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+      <td>
+        <p><strong> </strong></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Note</strong>: &#x201C;Checked&#x201D; boxes represent satisfied criteria; </p>
+<p>&#x201C;unchecked&#x201D; boxes represent unsatisfied criteria.</p>
+<p>Because the three criteria are equally important, a country would need to satisfy the three to fully meet requirements.</p>
+<p>The method of computation is as follows: </p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>I</mi>
+    <mi>n</mi>
+    <mi>d</mi>
+    <mi>i</mi>
+    <mi>c</mi>
+    <mi>a</mi>
+    <mi>t</mi>
+    <mi>o</mi>
+    <mi>r</mi>
+    <mi mathvariant="normal">&amp;nbsp;</mi>
+    <mn>5</mn>
+    <mo>.</mo>
+    <mi>c</mi>
+    <mo>.</mo>
+    <mn>1</mn>
+    <mo>=</mo>
+    <mi mathvariant="normal">&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>o</mi>
+            <mi>f</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>u</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>r</mi>
+            <mi>i</mi>
+            <mi>e</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>t</mi>
+            <mi>h</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">f</mi>
+            <mi mathvariant="bold-italic">u</mi>
+            <mi mathvariant="bold-italic">l</mi>
+            <mi mathvariant="bold-italic">l</mi>
+            <mi mathvariant="bold-italic">y</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>m</mi>
+            <mi>e</mi>
+            <mi>e</mi>
+            <mi>t</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>q</mi>
+            <mi>u</mi>
+            <mi>i</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>m</mi>
+            <mi>e</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+          </mrow>
+        </mfenced>
+        <mo>&#xD7;</mo>
+        <mn>100</mn>
+      </mrow>
+      <mrow>
+        <mi>T</mi>
+        <mi>o</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>n</mi>
+        <mi>u</mi>
+        <mi>m</mi>
+        <mi>b</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>o</mi>
+        <mi>f</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>i</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+<h2>Unit:</h2>
+<p>%</p>
+<h2>Disaggregation: </h2>
+<ol>
+  <li>In addition to reporting Indicator 5.c.1 as described above, the following two country classification global proportions will also be reported:</li>
+</ol>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mfrac>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>o</mi>
+            <mi>f</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>u</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>r</mi>
+            <mi>i</mi>
+            <mi>e</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>t</mi>
+            <mi>h</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">d</mi>
+            <mi mathvariant="bold-italic">o</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">n</mi>
+            <mi mathvariant="bold-italic">o</mi>
+            <mi mathvariant="bold-italic">t</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">m</mi>
+            <mi mathvariant="bold-italic">e</mi>
+            <mi mathvariant="bold-italic">e</mi>
+            <mi mathvariant="bold-italic">t</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>q</mi>
+            <mi>u</mi>
+            <mi>i</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>m</mi>
+            <mi>e</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+          </mrow>
+        </mfenced>
+        <mo>&#xD7;</mo>
+        <mn>100</mn>
+      </mrow>
+      <mrow>
+        <mi>T</mi>
+        <mi>o</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>n</mi>
+        <mi>u</mi>
+        <mi>m</mi>
+        <mi>b</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>o</mi>
+        <mi>f</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>i</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mfrac>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>o</mi>
+            <mi>f</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>u</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>r</mi>
+            <mi>i</mi>
+            <mi>e</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>t</mi>
+            <mi>h</mi>
+            <mi>a</mi>
+            <mi>t</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">a</mi>
+            <mi mathvariant="bold-italic">p</mi>
+            <mi mathvariant="bold-italic">p</mi>
+            <mi mathvariant="bold-italic">r</mi>
+            <mi mathvariant="bold-italic">o</mi>
+            <mi mathvariant="bold-italic">a</mi>
+            <mi mathvariant="bold-italic">c</mi>
+            <mi mathvariant="bold-italic">h</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi>a</mi>
+            <mi>p</mi>
+            <mi>p</mi>
+            <mi>r</mi>
+            <mi>o</mi>
+            <mi>a</mi>
+            <mi>c</mi>
+            <mi>h</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>q</mi>
+            <mi>u</mi>
+            <mi>i</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>m</mi>
+            <mi>e</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+          </mrow>
+        </mfenced>
+        <mo>&#xD7;</mo>
+        <mn>100</mn>
+      </mrow>
+      <mrow>
+        <mi>T</mi>
+        <mi>o</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>n</mi>
+        <mi>u</mi>
+        <mi>m</mi>
+        <mi>b</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>o</mi>
+        <mi>f</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>i</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+<ol>
+  <li>Additional disaggregation by region as follows:</li>
+</ol>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mfrac>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>o</mi>
+            <mi>f</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>u</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>r</mi>
+            <mi>i</mi>
+            <mi>e</mi>
+            <mi>s</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>i</mi>
+            <mi>n</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">r</mi>
+            <mi mathvariant="bold-italic">e</mi>
+            <mi mathvariant="bold-italic">g</mi>
+            <mi mathvariant="bold-italic">i</mi>
+            <mi mathvariant="bold-italic">o</mi>
+            <mi mathvariant="bold-italic">n</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">x</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi>w</mi>
+            <mi>i</mi>
+            <mi>t</mi>
+            <mi>h</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi>c</mi>
+            <mi>o</mi>
+            <mi>u</mi>
+            <mi>n</mi>
+            <mi>t</mi>
+            <mi>r</mi>
+            <mi>y</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="bold-italic">c</mi>
+            <mi mathvariant="bold-italic">l</mi>
+            <mi mathvariant="bold-italic">a</mi>
+            <mi mathvariant="bold-italic">s</mi>
+            <mi mathvariant="bold-italic">s</mi>
+            <mi mathvariant="bold-italic">i</mi>
+            <mi mathvariant="bold-italic">f</mi>
+            <mi mathvariant="bold-italic">i</mi>
+            <mi mathvariant="bold-italic">c</mi>
+            <mi mathvariant="bold-italic">a</mi>
+            <mi mathvariant="bold-italic">t</mi>
+            <mi mathvariant="bold-italic">i</mi>
+            <mi mathvariant="bold-italic">o</mi>
+            <mi mathvariant="bold-italic">n</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+            <mi mathvariant="bold">y</mi>
+            <mi mathvariant="bold">&amp;nbsp;</mi>
+          </mrow>
+        </mfenced>
+        <mo>&#xD7;</mo>
+        <mn>100</mn>
+      </mrow>
+      <mrow>
+        <mi>T</mi>
+        <mi>o</mi>
+        <mi>t</mi>
+        <mi>a</mi>
+        <mi>l</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>n</mi>
+        <mi>u</mi>
+        <mi>m</mi>
+        <mi>b</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>o</mi>
+        <mi>f</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>u</mi>
+        <mi>n</mi>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>i</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mi mathvariant="normal">&amp;nbsp;</mi>
+        <mi mathvariant="bold-italic">r</mi>
+        <mi mathvariant="bold-italic">e</mi>
+        <mi mathvariant="bold-italic">g</mi>
+        <mi mathvariant="bold-italic">i</mi>
+        <mi mathvariant="bold-italic">o</mi>
+        <mi mathvariant="bold-italic">n</mi>
+        <mi mathvariant="bold">&amp;nbsp;</mi>
+        <mi mathvariant="bold-italic">x</mi>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Where <strong><em>x</em></strong> refers to the region of analysis and <strong><em>y</em></strong> refers to the country classification based on the questionnaire.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -869,12 +1507,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

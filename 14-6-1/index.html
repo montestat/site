@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -631,7 +634,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metodologija indikatora kako se prati u Crnoj Gori </th>
+        <th scope="row">Metodologija indikatora </th>
         <td>
           
             <p><strong>Definition:</strong></p>
@@ -659,29 +662,161 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
+      
+      
+      <tr>
+        <th scope="row">Metoda računanja </th>
+        <td>
           
+            <p>The indicator is based upon responses by States to a certain sections of the questionnaire for monitoring the implementation of the Code of Conduct for Responsible Fisheries and related instruments (CCRF). These are sections covering the implementation of different international instruments used to combat IUU fishing. The responses will be converted using an algorithm to obtain a score for the indicator. Each instrument will be covered within a given variable, as follows:</p>
+<p><strong>Variable 1</strong> <strong>(V1)</strong> - Adherence and implementation of the 1982 United Nations Convention on the Law of the Sea</p>
+<p><strong>Variable 2</strong> <strong>(V2)</strong> - Adherence and implementation of the 1995 United Nations Fish Stocks Agreement </p>
+<p><strong>Variable 3 (V3)</strong> - Development and implementation of a national plan of action (NPOA) to combat IUU fishing in line with the IPOA-IUU </p>
+<p><strong>Variable 4 (V4)</strong> - Adherence and implementation of the 2009 FAO Agreement on Port State Measures (PSMA) </p>
+<p><strong>Variable 5 (V5)</strong> - Implementation of Flag State Responsibilities in the context of the 1993 FAO Compliance Agreement and FAO Voluntary Guidelines for Flag State Performance</p>
+<p>Depending on responses by FAO Members on the adherence and implementation of the above-mentioned instruments, States will score an indicator value between 0 and 1. Each variable is given a weighting, which takes into consideration the importance of the instrument in combating IUU fishing as well as the overlap between the instruments. The variable weightings are as follows:</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Variable</strong></p>
+      </td>
+      <td>
+        <p><strong>Weighting*</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>V1</p>
+      </td>
+      <td>
+        <p>10%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>V2</p>
+      </td>
+      <td>
+        <p>10%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>V3</p>
+      </td>
+      <td>
+        <p>30%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>V4</p>
+      </td>
+      <td>
+        <p>30%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>V5</p>
+      </td>
+      <td>
+        <p>20%</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>(*) item on &#x201C;Applicability of instruments&#x201D;</p>
+<p>For binding agreements, States will still be able to score points if they are not party to the agreement but are implementing its provisions. States will also score points if they have initiated the process to becoming party to an agreement. </p>
+<p>This indicator is automatically computed within the web-application on which the countries will be responding to the questionnaire. Once the questionnaire is completed the respondent will be presented with a report of the indicator, describing the methodology and the score attained. The user will then be able to give a final confirmation of the indicator. The final scores from all the respondents will automatically be collected onto a database. This web-application will also allow the user to access in any the following languages: English, French, Spanish, Chinese, Arabic and Russian.</p>
+<p><u>Choice of weighting per variable:</u></p>
+<p>The weightings for each variable have been carefully selected. These have been determined based upon their importance of their role in combatting IUU fishing as well as in consideration of the overlap present in between the different instruments. It is also for this consideration of overlap that the VG-FSP and the Compliance Agreement have been combined into Variable 5.</p>
+<p><u>Applicability of instruments:</u></p>
+<p>A set of questions will be present to determine certain characteristics of States (coastal, port, flag and land-locked). This will ensure that the indicator scoring for a country is not negatively affected if an instrument is not applicable to them. <u>In such case, the weighing of the variable that is not applicable is redistributed into the remaining variables</u>. In cases where none of the instruments is applicable, the country will get an indicator score of &#x201C;N/A&#x201D;.</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p><strong>Variable</strong></p>
+      </td>
+      <td>
+        <p><strong>Cases in which Instruments are not applicable</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>V1</strong></p>
+      </td>
+      <td>
+        <p>The only case where this instrument becomes not applicable, is when the State is landlocked and they are not a flag state. </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>V2</strong></p>
+      </td>
+      <td>
+        <p>Is not applicable if the country is land-locked and not a flag State or a coastal State but is not a flag State or Port State.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>V3</strong></p>
+      </td>
+      <td>
+        <p>Same as Variable 2.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>V4</strong></p>
+      </td>
+      <td>
+        <p>Same as Variable 2.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><strong>V5</strong></p>
+      </td>
+      <td>
+        <p>Is not applicable if the country is not a flag State.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>For more details regarding the list of question, scoring and applicability, please refer to Appendix 1 and 2.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 </table>
@@ -800,12 +935,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

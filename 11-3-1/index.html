@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -631,7 +634,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metodologija indikatora kako se prati u Crnoj Gori </th>
+        <th scope="row">Metodologija indikatora </th>
         <td>
           
             <p><strong>Definitions:</strong></p>
@@ -644,6 +647,606 @@ data-event-label="Change to indicator.sources tab"
 <p><strong>Land consumption rate</strong> is the rate at which urbanized land or land occupied by a city/urban area changes during a period of time (usually one year), expressed as a percentage of the land occupied by the city/urban area at the start of that time. </p>
 <p><strong>Built up area </strong>within the context of indicator 11.3.1 is defined as all areas occupied by buildings. </p>
 <div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> A recommendation on the method to delineate cities, urban and rural areas for international statistical comparisons. <a href="https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3j-Recommendation-E.pdf">https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3j-Recommendation-E.pdf</a> <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Metoda računanja </th>
+        <td>
+          
+            <p>The method to compute ratio of land consumption rate to population growth rate follows five broad steps:</p>
+<ol>
+  <li>Deciding on the analysis period/years</li>
+  <li>Delimitation of the urban area or city which will act as the geographical scope for the analysis</li>
+  <li>Spatial analysis and computation of the land consumption rate</li>
+  <li>Spatial analysis and computation of the population growth rate</li>
+  <li>Computation of the ratio of land consumption rate to population growth rate</li>
+  <li>Computation of recommended secondary indicators</li>
+  <li><strong>Deciding on the analysis period/years</strong></li>
+</ol>
+<p>This step involves selecting the time period during which the measurement of the indicator will be undertaken. Since this indicator considers historical growth of urban areas, analysis can be done annually, in 5-year cycles or 10-year cycles. Cycles of 5 or 10 years are commended, especially where use of mid-to-high resolution satellite imagery is used to extract data on built up areas, which is used to compute the land consumption rate component of the indicator. UN-Habitat and partners have been creating a repository of some data on this indicator using 1990 as the baseline year. Countries can however compute the indicator as far as back as satellite imagery is available (1975 for Landsat free imagery) and can maintain the current/most recent year as the final reporting year. </p>
+<ol>
+  <li><strong>Delimitation of the urban area or city which will act as the spatial analysis scope</strong></li>
+</ol>
+<p>Urban areas and cities grow in different ways, the most common of which include infill (new developments within existing urban areas resulting in densification), extension (new developments at the edge of existing urban areas), leapfrogging (new urban threshold developments which are not attached to the urban area but which are functionally linked) and inclusion (engulfing of outlying urban clusters or leapfrog developments into the urban area, often forming urban conurbations). Key to note also is that growth of urban areas is not always positive. Sometimes, negative growth can be recorded, such as where disasters (e.gs floods, earthquakes) result in collapse of buildings and/or reduction in the built-up area mass. </p>
+<p>Understanding the spatial growth of urban areas requires two important pre-requisites: a) delimitation of an appropriate spatial analysis scope which captures the entire urban fabric (as opposed to just the administratively defined boundaries), and b) use of a growth tracking measurement that helps understand when both positive and negative growth happen. For the former, a harmonized urban area/city definition approach which allows for consistent analysis is recommended, while the use of built up areas is recommended for the latter since it allows for measurement of both positive and negative urban growth. </p>
+<p>Following consultations with 86 member states, the United Nations Statistical Commission in its 51<sup>st</sup> Session (March 2020) endorsed the Degree of Urbanisation (DEGURBA) as a workable method to delineate cities, urban and rural areas for international statistical comparisons. Countries are thus encouraged to adopt this approach, which will help them produce data that is comparable across urban areas within their territories, as well as with urban areas and cities in other countries. More details on DEGURBA are available here: <a href="https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3j-Recommendation-E.pdf">https://unstats.un.org/unsd/statcom/51st-session/documents/BG-Item3j-Recommendation-E.pdf</a></p>
+<ol>
+  <li><strong>Spatial analysis and computation of the land consumption rate</strong></li>
+</ol>
+<p>Using the urban boundaries defined in step (b), spatial analysis is undertaken to determine the land consumption rate. To implement this, the three steps below are followed:</p>
+<ol>
+  <li>From satellite imagery, extract data on built up areas for each analysis year </li>
+  <li>Calculate the total area covered by the built-up areas for each of the analysis years </li>
+  <li>Compute the (annual) land consumption rate using the formula:</li>
+</ol>
+<p></p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">L</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">n</mi>
+    <mi mathvariant="bold">d</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">C</mi>
+    <mi mathvariant="bold">o</mi>
+    <mi mathvariant="bold">n</mi>
+    <mi mathvariant="bold">s</mi>
+    <mi mathvariant="bold">u</mi>
+    <mi mathvariant="bold">m</mi>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">t</mi>
+    <mi mathvariant="bold">i</mi>
+    <mi mathvariant="bold">o</mi>
+    <mi mathvariant="bold">n</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">R</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">t</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">i</mi>
+    <mo>.</mo>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">L</mi>
+    <mi mathvariant="bold">C</mi>
+    <mi mathvariant="bold">R</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi mathvariant="normal">V</mi>
+        <mi mathvariant="normal">p</mi>
+        <mi mathvariant="normal">r</mi>
+        <mi mathvariant="normal">e</mi>
+        <mi mathvariant="normal">s</mi>
+        <mi mathvariant="normal">e</mi>
+        <mi mathvariant="normal">n</mi>
+        <mi mathvariant="normal">t</mi>
+        <mo>-</mo>
+        <mi mathvariant="normal">V</mi>
+        <mi mathvariant="normal">p</mi>
+        <mi mathvariant="normal">a</mi>
+        <mi mathvariant="normal">s</mi>
+        <mi mathvariant="normal">t</mi>
+      </mrow>
+      <mrow>
+        <mtable>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <mi>V</mi>
+                <mi>p</mi>
+                <mi>a</mi>
+                <mi>s</mi>
+                <mi>t</mi>
+                <mi>&amp;nbsp;</mi>
+                <mi>&amp;nbsp;</mi>
+              </mrow>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <mi>&amp;nbsp;</mi>
+              </mrow>
+            </mtd>
+          </mtr>
+        </mtable>
+      </mrow>
+    </mfrac>
+  </math> * <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mfrac>
+      <mrow>
+        <mn>1</mn>
+      </mrow>
+      <mrow>
+        <mtable>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <mo>(</mo>
+                <mi>t</mi>
+                <mo>)</mo>
+                <mi>&amp;nbsp;</mi>
+                <mi>&amp;nbsp;</mi>
+              </mrow>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <mi>&amp;nbsp;</mi>
+              </mrow>
+            </mtd>
+          </mtr>
+        </mtable>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Where: V<sub>present</sub> is total built up area in current year</p>
+<p>V<sub>pas</sub>t is total built up area in past year</p>
+<p>t is the number of years between V<sub>present</sub> and V<sub>past</sub> (or length in years of the period considered)</p>
+<ol>
+  <li><strong>Spatial analysis and computation of the population growth rate</strong></li>
+</ol>
+<p>Using the urban boundaries defined in step (b), calculate the total population within the urban area in each of the analysis years where the land consumption rate is computed. Population data collected by National Statistical Offices through censuses and other surveys should be used for this analysis. Where this type of population data is not available, or where data is released at large population units which exceed the defined urban area, countries are encouraged to create population grids, which can help disaggregate the data from large and different sized census/ population data release units to smaller uniform sized grids. </p>
+<p>The (annual) population growth rate is calculated using the total population within the urban area for the analysis period using the formula below:</p>
+<p><strong>Population Growth rate i.e. </strong><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">P</mi>
+    <mi mathvariant="bold">G</mi>
+    <mi mathvariant="bold">R</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi mathvariant="bold">L</mi>
+        <mi mathvariant="bold">N</mi>
+        <mfenced separators="|">
+          <mrow>
+            <msub>
+              <mrow>
+                <mi mathvariant="bold">P</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">p</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">t</mi>
+                <mo>+</mo>
+                <mi mathvariant="bold">n</mi>
+              </mrow>
+            </msub>
+            <mo>/</mo>
+            <msub>
+              <mrow>
+                <mi mathvariant="bold">P</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">p</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">t</mi>
+              </mrow>
+            </msub>
+          </mrow>
+        </mfenced>
+      </mrow>
+      <mrow>
+        <mo>(</mo>
+        <mi mathvariant="bold">y</mi>
+        <mo>)</mo>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Where </p>
+<p>LN is the natural logarithm value</p>
+<p>Pop<sub>t </sub>is the total population within the urban area/city in the past/initial year</p>
+<p>Pop<sub>t+n</sub> is the total population within the urban area/city in the current/final year</p>
+<p>y is the number of years between the two measurement periods</p>
+<ol>
+  <li><strong>Computation of the ratio of land consumption rate to population growth rate</strong></li>
+</ol>
+<p>The ratio of land consumption rate (LCRPGR) to population growth rate is calculated using the formula: </p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">L</mi>
+    <mi mathvariant="bold">C</mi>
+    <mi mathvariant="bold">R</mi>
+    <mi mathvariant="bold">P</mi>
+    <mi mathvariant="bold">G</mi>
+    <mi mathvariant="bold">R</mi>
+    <mo>=</mo>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mfenced separators="|">
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">L</mi>
+                <mi mathvariant="bold">a</mi>
+                <mi mathvariant="bold">n</mi>
+                <mi mathvariant="bold">d</mi>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">C</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">n</mi>
+                <mi mathvariant="bold">s</mi>
+                <mi mathvariant="bold">u</mi>
+                <mi mathvariant="bold">m</mi>
+                <mi mathvariant="bold">p</mi>
+                <mi mathvariant="bold">t</mi>
+                <mi mathvariant="bold">i</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">n</mi>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">r</mi>
+                <mi mathvariant="bold">a</mi>
+                <mi mathvariant="bold">t</mi>
+                <mi mathvariant="bold">e</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">P</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">p</mi>
+                <mi mathvariant="bold">u</mi>
+                <mi mathvariant="bold">l</mi>
+                <mi mathvariant="bold">a</mi>
+                <mi mathvariant="bold">t</mi>
+                <mi mathvariant="bold">i</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">n</mi>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">g</mi>
+                <mi mathvariant="bold">r</mi>
+                <mi mathvariant="bold">o</mi>
+                <mi mathvariant="bold">w</mi>
+                <mi mathvariant="bold">t</mi>
+                <mi mathvariant="bold">h</mi>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <mi mathvariant="bold">r</mi>
+                <mi mathvariant="bold">a</mi>
+                <mi mathvariant="bold">t</mi>
+                <mi mathvariant="bold">e</mi>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mfenced>
+  </math></p>
+<p>The overall formula can be summarized as:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">L</mi>
+    <mi mathvariant="bold">C</mi>
+    <mi mathvariant="bold">R</mi>
+    <mi mathvariant="bold">P</mi>
+    <mi mathvariant="bold">G</mi>
+    <mi mathvariant="bold">R</mi>
+    <mo>=</mo>
+    <mfrac bevelled="true">
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mi mathvariant="normal">V</mi>
+                <mi mathvariant="normal">p</mi>
+                <mi mathvariant="normal">r</mi>
+                <mi mathvariant="normal">e</mi>
+                <mi mathvariant="normal">s</mi>
+                <mi mathvariant="normal">e</mi>
+                <mi mathvariant="normal">n</mi>
+                <mi mathvariant="normal">t</mi>
+                <mo>-</mo>
+                <mi mathvariant="normal">V</mi>
+                <mi mathvariant="normal">p</mi>
+                <mi mathvariant="normal">a</mi>
+                <mi mathvariant="normal">s</mi>
+                <mi mathvariant="normal">t</mi>
+              </mrow>
+              <mrow>
+                <mtable>
+                  <mtr>
+                    <mtd>
+                      <mrow>
+                        <maligngroup></maligngroup>
+                        <mi>V</mi>
+                        <mi>p</mi>
+                        <mi>a</mi>
+                        <mi>s</mi>
+                        <mi>t</mi>
+                        <mi>&amp;nbsp;</mi>
+                        <mi>&amp;nbsp;</mi>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mrow>
+                        <maligngroup></maligngroup>
+                        <mi>&amp;nbsp;</mi>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                </mtable>
+              </mrow>
+            </mfrac>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mi mathvariant="normal">*</mi>
+            <mi mathvariant="normal">&amp;nbsp;</mi>
+            <mfrac>
+              <mrow>
+                <mn>1</mn>
+              </mrow>
+              <mrow>
+                <mtable>
+                  <mtr>
+                    <mtd>
+                      <mrow>
+                        <maligngroup></maligngroup>
+                        <mi>T</mi>
+                        <mi>&amp;nbsp;</mi>
+                        <mi>&amp;nbsp;</mi>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mrow>
+                        <maligngroup></maligngroup>
+                        <mi>&amp;nbsp;</mi>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                </mtable>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mfenced>
+      </mrow>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mi mathvariant="bold">L</mi>
+                <mi mathvariant="bold">N</mi>
+                <mfenced separators="|">
+                  <mrow>
+                    <mfrac>
+                      <mrow>
+                        <msub>
+                          <mrow>
+                            <mi mathvariant="bold">P</mi>
+                            <mi mathvariant="bold">o</mi>
+                            <mi mathvariant="bold">p</mi>
+                          </mrow>
+                          <mrow>
+                            <mi mathvariant="bold">t</mi>
+                            <mo>+</mo>
+                            <mi mathvariant="bold">n</mi>
+                          </mrow>
+                        </msub>
+                      </mrow>
+                      <mrow>
+                        <msub>
+                          <mrow>
+                            <mi mathvariant="bold">P</mi>
+                            <mi mathvariant="bold">o</mi>
+                            <mi mathvariant="bold">p</mi>
+                          </mrow>
+                          <mrow>
+                            <mi mathvariant="bold">t</mi>
+                          </mrow>
+                        </msub>
+                      </mrow>
+                    </mfrac>
+                  </mrow>
+                </mfenced>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">y</mi>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mfrac>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+  </math></p>
+<p>The analysis years for both the land consumption rate and the population growth rate should be the same. </p>
+<ol>
+  <li><strong>Computation of recommended secondary indicators</strong></li>
+</ol>
+<p>There are two important secondary indicators which help interpret the value of the main indicator - LGRPGR, thus helping in better understanding the nature of urban growth in each urban area. Both indicators use the same input data as the LCRPGR and will thus not require additional work by countries. These are: </p>
+<ol>
+  <li><strong>Built-up area per capita</strong> &#x2013; which is a measure of the average amount of built-up area available to each person in an urban area during each analysis year. This indicator can help identify when urban areas become too dense and/or when they become too sparsely populated. It is computed by dividing the total built-up area by the total urban population within the urban area/city at a given year, using the formula below:</li>
+</ol>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">B</mi>
+    <mi mathvariant="bold">u</mi>
+    <mi mathvariant="bold">i</mi>
+    <mi mathvariant="bold">l</mi>
+    <mi mathvariant="bold">t</mi>
+    <mo>-</mo>
+    <mi mathvariant="bold">u</mi>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">r</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">r</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">c</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">i</mi>
+    <mi mathvariant="bold">t</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mo>(</mo>
+    <mi mathvariant="bold">m</mi>
+    <mn>2</mn>
+    <mo>/</mo>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">r</mi>
+    <mi mathvariant="bold">s</mi>
+    <mi mathvariant="bold">o</mi>
+    <mi mathvariant="bold">n</mi>
+    <mo>)</mo>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mo>=</mo>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mfenced separators="|">
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <msub>
+                  <mrow>
+                    <mi mathvariant="bold">U</mi>
+                    <mi mathvariant="bold">r</mi>
+                    <mi mathvariant="bold">B</mi>
+                    <mi mathvariant="bold">U</mi>
+                  </mrow>
+                  <mrow>
+                    <mi mathvariant="bold">t</mi>
+                  </mrow>
+                </msub>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">&amp;nbsp;</mi>
+                <msub>
+                  <mrow>
+                    <mi mathvariant="bold">P</mi>
+                    <mi mathvariant="bold">o</mi>
+                    <mi mathvariant="bold">p</mi>
+                  </mrow>
+                  <mrow>
+                    <mi mathvariant="bold">t</mi>
+                  </mrow>
+                </msub>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </mfenced>
+      </mrow>
+    </mfenced>
+  </math></p>
+<p>Where</p>
+<p>UrBU<sub>t </sub>is the total built-up area/city in the urban area in time t (in square meters) </p>
+<p>Pop<sub>t</sub> is the population in the urban area in time t</p>
+<ol>
+  <li><strong>Total change in built up area</strong> &#x2013; which is a measure of the total increase in built up areas within the urban area over time. When applied to a small part of an urban area, such as the core city (or old part of the urban area), this indicator can be used to understand densification trends in urban areas. It is measured using the same inputs as the land consumption rate for the different analysis years, based on the below formula: </li>
+</ol>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi mathvariant="bold">T</mi>
+    <mi mathvariant="bold">o</mi>
+    <mi mathvariant="bold">t</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">l</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">c</mi>
+    <mi mathvariant="bold">h</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">n</mi>
+    <mi mathvariant="bold">g</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">i</mi>
+    <mi mathvariant="bold">n</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">b</mi>
+    <mi mathvariant="bold">u</mi>
+    <mi mathvariant="bold">i</mi>
+    <mi mathvariant="bold">l</mi>
+    <mi mathvariant="bold">t</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">u</mi>
+    <mi mathvariant="bold">p</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">r</mi>
+    <mi mathvariant="bold">e</mi>
+    <mi mathvariant="bold">a</mi>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mo>(</mo>
+    <mi mathvariant="bold">%</mi>
+    <mo>)</mo>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mo>=</mo>
+    <mi mathvariant="bold">&amp;nbsp;</mi>
+    <mfrac>
+      <mrow>
+        <mfenced separators="|">
+          <mrow>
+            <msub>
+              <mrow>
+                <mi mathvariant="bold">U</mi>
+                <mi mathvariant="bold">r</mi>
+                <mi mathvariant="bold">B</mi>
+                <mi mathvariant="bold">U</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">t</mi>
+                <mo>+</mo>
+                <mi mathvariant="bold">n</mi>
+              </mrow>
+            </msub>
+            <mo>-</mo>
+            <mi mathvariant="bold-italic">&amp;nbsp;</mi>
+            <msub>
+              <mrow>
+                <mi mathvariant="bold">U</mi>
+                <mi mathvariant="bold">r</mi>
+                <mi mathvariant="bold">B</mi>
+                <mi mathvariant="bold">U</mi>
+              </mrow>
+              <mrow>
+                <mi mathvariant="bold">t</mi>
+              </mrow>
+            </msub>
+          </mrow>
+        </mfenced>
+      </mrow>
+      <mrow>
+        <msub>
+          <mrow>
+            <mi mathvariant="bold">U</mi>
+            <mi mathvariant="bold">r</mi>
+            <mi mathvariant="bold">B</mi>
+            <mi mathvariant="bold">U</mi>
+          </mrow>
+          <mrow>
+            <mi mathvariant="bold">t</mi>
+          </mrow>
+        </msub>
+      </mrow>
+    </mfrac>
+  </math></p>
+<p>Where</p>
+<p>UrBU<sub>t +n </sub>is the total built-up area in the urban area/city in time the current/final year </p>
+<p>UrBU<sub>t </sub>is the total built-up area in the urban area/city in time the past/initial year </p>
+<p>Detailed steps for computation of the core indicator and the secondary indicators are available in the detailed training module for indicator 11.3.1: <a href="https://unhabitat.org/sites/default/files/2020/07/indicator_11.3.1_training_module_land_use_efficiency_french.pdf">https://unhabitat.org/sites/default/files/2020/07/indicator_11.3.1_training_module_land_use_efficiency_french.pdf</a> </p>
 
           
         </td>
@@ -671,9 +1274,7 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
+  
   
   
 </table>
@@ -792,12 +1393,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

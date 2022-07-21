@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -333,7 +333,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"un_designated_tier":{"type":"string","format":"markdown","title":"Nivo UN","description":"Scope: global, Field: un_designated_tier"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"DATA_COMP__GLOBAL":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: global, Field: DATA_COMP__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"DATA_COMP":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: national, Field: DATA_COMP"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
     
       
         
@@ -530,6 +530,20 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "<p>The proportion of &#x201C;small-scale industries&#x201D; with a loan or line of credit is calculated as the number of &#x201C;small-scale industries&#x201D; with an active line of credit or a loan from a financial institution in the reference year in percentage to the total number of such enterprises:</p>\n<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n    <mfrac>\n      <mrow>\n        <mi>t</mi>\n        <mi>h</mi>\n        <mi>e</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>n</mi>\n        <mi>u</mi>\n        <mi>m</mi>\n        <mi>b</mi>\n        <mi>e</mi>\n        <mi>r</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>o</mi>\n        <mi>f</mi>\n        <mi>&amp;nbsp;</mi>\n        <mo>&quot;</mo>\n        <mi>s</mi>\n        <mi>m</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>l</mi>\n        <mo>-</mo>\n        <mi>s</mi>\n        <mi>c</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>e</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>d</mi>\n        <mi>u</mi>\n        <mi>s</mi>\n        <mi>t</mi>\n        <mi>r</mi>\n        <mi>i</mi>\n        <mi>e</mi>\n        <mi>s</mi>\n        <mo>&quot;</mo>\n        <mi>&amp;nbsp;</mi>\n        <mi>w</mi>\n        <mi>i</mi>\n        <mi>t</mi>\n        <mi>h</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>l</mi>\n        <mi>o</mi>\n        <mi>a</mi>\n        <mi>n</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>o</mi>\n        <mi>r</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>l</mi>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>e</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>o</mi>\n        <mi>f</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>c</mi>\n        <mi>r</mi>\n        <mi>e</mi>\n        <mi>d</mi>\n        <mi>i</mi>\n        <mi>t</mi>\n      </mrow>\n      <mrow>\n        <mi>T</mi>\n        <mi>o</mi>\n        <mi>t</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>n</mi>\n        <mi>u</mi>\n        <mi>m</mi>\n        <mi>b</mi>\n        <mi>e</mi>\n        <mi>r</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>o</mi>\n        <mi>f</mi>\n        <mi>&amp;nbsp;</mi>\n        <mo>&quot;</mo>\n        <mi>s</mi>\n        <mi>m</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>l</mi>\n        <mo>-</mo>\n        <mi>s</mi>\n        <mi>c</mi>\n        <mi>a</mi>\n        <mi>l</mi>\n        <mi>e</mi>\n        <mi>&amp;nbsp;</mi>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>d</mi>\n        <mi>u</mi>\n        <mi>s</mi>\n        <mi>t</mi>\n        <mi>r</mi>\n        <mi>i</mi>\n        <mi>e</mi>\n        <mi>s</mi>\n        <mo>&quot;</mo>\n      </mrow>\n    </mfrac>\n    <mo>&#xD7;</mo>\n    <mn>100</mn>\n  </math></p>\n<p>The indicator is calculated as a share of small-scale manufacturing enterprises with a loan or line of credit in the total number of small-scale manufacturing enterprises. Calculation of the indicator can be extended for other economic activities.</p>");
+        var propertyEditor = editor.getEditor('root.DATA_COMP__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP__GLOBAL');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP__GLOBAL'));
+
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
@@ -546,7 +560,7 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.methodology_start_date'));
 
@@ -679,12 +693,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

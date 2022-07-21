@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -333,7 +333,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora kako se prati u Crnoj Gori","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"un_designated_tier":{"type":"string","format":"markdown","title":"Nivo UN","description":"Scope: global, Field: un_designated_tier"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Urediti metapodatke","properties":{"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"DATA_COMP__GLOBAL":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: global, Field: DATA_COMP__GLOBAL"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Cilj","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Zadatak","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indikator","description":"Scope: national, Field: SDG_INDICATOR"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Metodologija indikatora","description":"Scope: national, Field: STAT_CONC_DEF"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Izvori podataka","description":"Scope: national, Field: DATA_SOURCE"},"COVERAGE":{"type":"string","format":"markdown","title":"Disagregacija","description":"Scope: national, Field: COVERAGE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Napomene","description":"Scope: national, Field: REC_USE_LIM"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Razlike u odnosu na UN metodologiju","description":"Scope: national, Field: COMPARABILITY"},"DATA_COMP":{"type":"string","format":"markdown","title":"Metoda računanja","description":"Scope: national, Field: DATA_COMP"},"methodology_start_date":{"type":"string","format":"markdown","title":"Od kada se indikator prati po opisanoj metodologiji","description":"Scope: national, Field: methodology_start_date"},"indicator_introduction_plan":{"type":"string","format":"markdown","title":"Plan za uvođenje indikatora, ukoliko ga nema u Crnoj Gori","description":"Scope: national, Field: indicator_introduction_plan"}},"additionalProperties":true};
     
       
         
@@ -530,6 +530,20 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('DATA_COMP__GLOBAL', "<p>To estimate values, <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3701999/pdf/ehp.1205987.pdf\">a multilevel nonparametric modelling approach</a>&#x2014;developed by the World Health Organization to estimate clean fuel usage&#x2014;was adapted to predict electricity access and used to fill in the missing data points for the time period from 1990 onwards. Where data is available, access estimates are weighted by population. Multilevel nonparametric modelling considers the hierarchical structure of data (country and regional levels), using the regional classification of the United Nations. </p>\n<p>The model is applied for all countries with at least one data point. In order to use as much real data as possible, results based on real survey data are reported in their original form for all years available. The statistical model is used to fill in data only for years where they are missing and to conduct global and regional analyses. In the absence of survey data for a given year, information from regional trends was borrowed. The difference between real data points and estimated values is clearly identified in the database. </p>\n<p>Countries considered &#x201C;Developed&#x201D; by the United Nations and classified as &#x201C;High Income&#x201D; based on the World Bank Country and Lending Groups are assumed to reach universal access from the first year the country joined the category. </p>\n<p>In the present report, to avoid having electrification trends from 1990 to 2010 overshadow electrification efforts since 2010, the model was run twice: </p>\n<ul>\n  <li>With survey data and assumptions from 1990 to the latest year for model estimates from 1990 to the latest year</li>\n  <li>With survey data and assumptions from 2010 to the latest year for model estimates from 2010 to the latest year </li>\n</ul>\n<p>Given the low frequency and the regional distribution of some surveys, several countries have gaps in available data. To develop the historical evolution and starting point of electrification rates, a simple modelling approach was adopted to fill in the missing data points. This modelling approach allowed the estimation of electrification rates for 219 countries over the time periods. The SE4ALL Global Tracking Framework Report (2013) referenced below provides more details on the suggested methodology for tracking access to energy (Chapter 2, Section 1, page 82-87).</p>");
+        var propertyEditor = editor.getEditor('root.DATA_COMP__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: DATA_COMP__GLOBAL');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP__GLOBAL'));
+
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
@@ -546,7 +560,7 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.methodology_start_date'));
 
@@ -679,12 +693,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721160624">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721164651">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -520,31 +520,34 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
   
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
   
   
   
@@ -631,7 +634,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metodologija indikatora kako se prati u Crnoj Gori </th>
+        <th scope="row">Metodologija indikatora </th>
         <td>
           
             <p><strong>Definition: </strong></p>
@@ -640,6 +643,113 @@ data-event-label="Change to indicator.sources tab"
 <p>Undernourishment is defined as the condition by which a person has access, on a regular basis, to the amount of food that are insufficient to provide the energy required for conducting a normal, healthy and active life, given his or her own dietary energy requirements. </p>
 <p>Though strictly related, &#x201C;undernourishment&#x201D; as defined here is different from the physical conditions of &#x201C;malnutrition&#x201D; and &#x201C;undernutrition&#x201D; as it refers to the condition of insufficient intake of food, rather than to the outcome in terms of nutritional status. In French, Spanish and Italian the difference is marked by the use of the terms alimentation, alimentaci&#xF3;n, or alimentazione, instead of nutrition, nutrici&#xF3;n or nutrizione, in the name of the indicator. A more appropriate expression in English that would render the precise meaning of the indicator might have been &#x201C;prevalence of under-feeding&#x201D; but by now the term &#x201C;undernourishment&#x201D; has long been associated with the indicator. </p>
 <p>While the undernourishment condition applies to individuals, due to conceptual and data-related considerations, the indicator can only be referred to a population, or group of individuals. The prevalence of undernourishment is thus an estimate of the percentage of individuals in a group that are in that condition, but it does not allow for the identification of which individuals in the group are, in fact, undernourished. </p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Metoda računanja </th>
+        <td>
+          
+            <p>To compute an estimate of the prevalence of undernourishment in a population, the probability distribution of habitual dietary energy intake levels (expressed in kcal per person per day) for the average individual is modelled as a parametric probability density function (pdf), f(x).</p>
+<p>The indicator is obtained as the cumulative probability that the habitual dietary energy intake (x) is below the minimum dietary energy requirements (MDER) (i.e. the lowest limit of the range of energy requirements for the population&#x2019;s representative average individual) as in the formula below: </p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>P</mi>
+    <mi>o</mi>
+    <mi>U</mi>
+    <mo>=</mo>
+    <mi>&amp;nbsp;</mi>
+    <mrow>
+      <msubsup>
+        <mo stretchy="false">&#x222B;</mo>
+        <mrow>
+          <mi>x</mi>
+          <mo>&amp;lt;</mo>
+          <mi>M</mi>
+          <mi>D</mi>
+          <mi>E</mi>
+          <mi>R</mi>
+        </mrow>
+        <mrow>
+          <mi>&amp;nbsp;</mi>
+        </mrow>
+      </msubsup>
+      <mrow>
+        <mi>f</mi>
+        <mfenced separators="|">
+          <mrow>
+            <mi>x</mi>
+            <mo>|</mo>
+            <mi>&#x3B8;</mi>
+          </mrow>
+        </mfenced>
+        <mi>d</mi>
+        <mi>x</mi>
+      </mrow>
+    </mrow>
+  </math></p>
+<p>where &#x3B8; is a vector of parameters that characterizes the pdf. The distribution is assumed to be lognormal, and thus fully characterized by only two parameters: the mean dietary energy consumption (DEC), and its coefficient of variation (CV). </p>
+<p>A custom R function is available from the Statistics Division at FAO to compute the PoU, given the three parameters DEC, CV, and MDER. </p>
+<p>Different data sources can be used to estimate the different parameters of the model. </p>
+<p><u>DEC </u></p>
+<p>Ideally, data on food consumption should come from nationally representative household surveys (such as Living Standard Measurement Surveys or Household Incomes and Expenditure Surveys). However, only very few countries conduct such surveys on an annual basis. Thus, in FAO&#x2019;s PoU estimates for global monitoring, DEC values are estimated from the dietary energy supply (DES) reported in the Food Balance Sheets (FBS), compiled by FAO for most countries in the world (<a href="https://www.fao.org/faostat/en/#data/FBS">https://www.fao.org/faostat/en/#data/FBS</a>). </p>
+<p><u>CV </u></p>
+<p>When reliable data on food consumption are available from aforementioned nationally representative household surveys, the CV due to income (CV|y) that describes the distribution of average daily dietary energy requirement in the population can be estimated directly.</p>
+<p>When no suitable survey data are available, FIES data collected by FAO since 2014 are used to project the changes in the CV|y from 2015 (or from the year of the last food consumption survey) up to 2019, based on a smoothed (three-year moving average) trend in severe food insecurity.</p>
+<p>Since 2014, FIES data provide evidence on recent changes in the extent of severe food insecurity that might closely reflect changes in the PoU. To the extent that such changes in PoU are not explained by changes in average food supplies, they can thus be used to infer the likely changes in the CV|y that might have occurred in the most recent year. Analysis of the combined set of historic PoU estimates reveals that, on average, and once differences in DEC and MDER have been controlled for, the CV|y explains about one-third of the differences in PoU across time and space. For each country for which FIES data are available, the CV|y is estimated by the amount that would generate one-third of a percentage point change in the PoU for each observed percentage point change in the prevalence of severe food insecurity. For all other countries, the CV|y is kept constant at the estimated 2017 value.</p>
+<p>In the FAO PoU parametric approach, the CV due to body weight and lifestyle, a.k.a. CV due to requirement (CV|r), represents the variability of the distribution of dietary energy requirements of a hypothetical average individual representative of a healthy population, which is also equal to the CV of the distribution of dietary energy intakes of a hypothetical average individual if the population is perfectly nourished. The distribution of dietary energy requirements of a hypothetical average individual can be assumed to be normal, thus its variability can be estimated if at least two percentiles and their values are known. As a result, given that we are interested in deriving the theoretical distribution of dietary energy requirements for healthy hypothetical average individuals to estimate the CV|r, the MDER and the average dietary energy requirement (ADER) can be used to approximate the 1st percentile and the 50th percentile of the distribution of energy requirements of the hypothetical average individual as they are built on the same principles of a weighted average from sex-age-physiological status groups. Therefore, the value of CV|r is derived as the inverse cumulative standard normal distribution of the difference between the MDER and the ADER. Similar to the MDER, the ADER is estimated using the average of the minimum and the maximum values of the PAL category &#x2018;Active or moderately active lifestyle&#x2019;.</p>
+<p>The total CV is then obtained as the geometric mean of the CV|y and the CV|r:</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>C</mi>
+    <mi>V</mi>
+    <mo>=</mo>
+    <msqrt>
+      <mfenced separators="|">
+        <mrow>
+          <msup>
+            <mrow>
+              <mi>C</mi>
+              <mi>V</mi>
+              <mo>|</mo>
+              <mi>y</mi>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+            </mrow>
+          </msup>
+        </mrow>
+      </mfenced>
+      <mo>+</mo>
+      <mfenced separators="|">
+        <mrow>
+          <msup>
+            <mrow>
+              <mi>C</mi>
+              <mi>V</mi>
+              <mo>|</mo>
+              <mi>r</mi>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+            </mrow>
+          </msup>
+        </mrow>
+      </mfenced>
+    </msqrt>
+  </math></p>
+<p><strong>Challenges and limitations:</strong> While formally the state of being undernourished or not is a condition that applies to individuals, given the data usually available on a large scale, it is impossible to reliably identify which individuals in a certain group are actually undernourished. Through the statistical model described above, the indicator can only be computed with reference to a population or a group of individuals for which a representative sample is available. The prevalence of undernourishment is thus an estimate of the percentage of individuals in that group that are in such condition and cannot be further disaggregated.</p>
+<p>Due to the probabilistic nature of the inference and the margins of uncertainty associated with estimates of each of the parameters in the model, the precision of the PoU estimates is generally low. While it is not possible to formally compute margins of error around PoU estimates, these are expected to likely exceed 5 percent in most cases. For this reason, FAO does not consider PoU estimates that result to be lower than 2.5 percent as sufficiently reliable to be reported.</p>
+<p><u>MDER </u></p>
+<p>Human energy requirements for an individual in a given sex/age class are determined on the basis of normative requirements for basic metabolic rate (BMR) per kilogram of body mass, multiplied by the ideal weights that a healthy person of that sex/age class may have, given his or her height, and then multiplied by a coefficient of physical activity level (PAL) to take into account physical activity. Given that both healthy BMIs and PALs vary among active and healthy individuals of the same sex and age, a <em>range </em>of energy requirements applies to each sex and age group of the population. The MDER for the average individual in the population, which is the parameter used in the PoU formula, is obtained as the weighted average of the lower bounds of the energy requirement ranges for each sex and age group, using the shares of the population in each sex and age group as weights.</p>
+<p>Information on the population structure by sex and age is available for most countries in the world and for each year from the UN Department of Economic and Social Affairs (DESA) Population Prospects, revised every two years.</p>
+<p>Information on the median height in each sex and age group for a given country is derived from a recent demographic and health survey (DHS) or from other surveys that collect anthropometry data on children and adults. Even if such surveys do not refer to the same year for which the PoU is estimated, the impact of possible small intervening changes in median heights over the years on PoU estimates is expected to be negligible.</p>
 
           
         </td>
@@ -667,9 +777,7 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
+  
   
   
 </table>
@@ -788,12 +896,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721160624'></script>
+<script src='/site/assets/js/sdg.js?v=20220721164651'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721160624"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721164651"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
