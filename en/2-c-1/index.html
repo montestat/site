@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721171934">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220721182519">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -519,8 +519,6 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-  
-  
       
         
           
@@ -545,9 +543,6 @@ data-event-label="Change to indicator.sources tab"
       
         
           
-      
-        
-          
   
   
   
@@ -566,6 +561,10 @@ data-event-label="Change to indicator.sources tab"
       
         
           
+      
+        
+          
+  
 </table>
 
             </article>
@@ -629,704 +628,32 @@ data-event-label="Change to indicator.sources tab"
         
       
   
-      
-        
-      
-      
-      <tr>
-        <th scope="row">Definition and concepts </th>
-        <td>
-          
-            <p><strong>Definition:</strong></p>
-<p>The indicator of food price anomalies (IFPA) identifies market prices that are abnormally high. The IFPA relies on a weighted compound growth rate that accounts for both within year and across year price growth. The indicator directly evaluates growth in prices over a particular month over many years, taking into account seasonality in agricultural markets and inflation, allowing to answer the question of whether or not a change in price is abnormal for any particular period.</p>
-<p><strong>Concepts:</strong></p>
-<p>The indicator of price anomalies (IFPA) relies on two compound growth rates (CGR&#x2019;s), a quarterly compound growth rate (CQGR) and an annual compound growth rate (CAGR). A CGR is a geometric mean<sup><a href="#footnote-2" id="footnote-ref-2">[1]</a></sup> that assumes that a random variable grows at a steady rate, compounded over a specific period of time. Because it assumes a steady rate of growth the CGR smoothes the effect of volatility of price changes. The CGR is the growth in any random variable from time period <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-      <mrow>
-        <mi>A</mi>
-      </mrow>
-    </msub>
-  </math> to <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-      <mrow>
-        <mi>B</mi>
-      </mrow>
-    </msub>
-  </math>, raised to the power of one over the length of the period of time being considered.</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>C</mi>
-        <mi>X</mi>
-        <mi>G</mi>
-        <mi>R</mi>
-      </mrow>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-    <mo>=</mo>
-    <msup>
-      <mrow>
-        <mfenced separators="|">
-          <mrow>
-            <mfrac>
-              <mrow>
-                <msub>
-                  <mrow>
-                    <mi>P</mi>
-                  </mrow>
-                  <mrow>
-                    <msub>
-                      <mrow>
-                        <mi>t</mi>
-                      </mrow>
-                      <mrow>
-                        <mi>B</mi>
-                      </mrow>
-                    </msub>
-                  </mrow>
-                </msub>
-              </mrow>
-              <mrow>
-                <msub>
-                  <mrow>
-                    <mi>P</mi>
-                  </mrow>
-                  <mrow>
-                    <msub>
-                      <mrow>
-                        <mi>t</mi>
-                      </mrow>
-                      <mrow>
-                        <mi>A</mi>
-                      </mrow>
-                    </msub>
-                  </mrow>
-                </msub>
-              </mrow>
-            </mfrac>
-          </mrow>
-        </mfenced>
-      </mrow>
-      <mrow>
-        <mfrac>
-          <mrow>
-            <mn>1</mn>
-          </mrow>
-          <mrow>
-            <msub>
-              <mrow>
-                <mi>t</mi>
-              </mrow>
-              <mrow>
-                <mi>B</mi>
-              </mrow>
-            </msub>
-            <mo>-</mo>
-            <msub>
-              <mrow>
-                <mi>t</mi>
-              </mrow>
-              <mrow>
-                <mi>A</mi>
-              </mrow>
-            </msub>
-          </mrow>
-        </mfrac>
-      </mrow>
-    </msup>
-    <mo>-</mo>
-    <mn>1</mn>
-  </math> (1)</p>
-<p>where:</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>C</mi>
-        <mi>X</mi>
-        <mi>G</mi>
-        <mi>R</mi>
-      </mrow>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> is the quarterly or annual compound growth rate in month t</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>P</mi>
-      </mrow>
-      <mrow>
-        <msub>
-          <mrow>
-            <mi>t</mi>
-          </mrow>
-          <mrow>
-            <mi>A</mi>
-          </mrow>
-        </msub>
-      </mrow>
-    </msub>
-  </math>is the price at the beginning of the period</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>P</mi>
-      </mrow>
-      <mrow>
-        <msub>
-          <mrow>
-            <mi>t</mi>
-          </mrow>
-          <mrow>
-            <mi>B</mi>
-          </mrow>
-        </msub>
-      </mrow>
-    </msub>
-  </math> is the price at the end of the period, </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-      <mrow>
-        <mi>B</mi>
-      </mrow>
-    </msub>
-    <mo>-</mo>
-    <msub>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-      <mrow>
-        <mi>A</mi>
-      </mrow>
-    </msub>
-  </math> is the time in months between periods <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>A</mi>
-  </math> and <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>B</mi>
-  </math>.</p>
-<div class="footnotes"><div><sup class="footnote-number" id="footnote-2">1</sup><p> A geometric mean is a type of average, which indicates the typical value of a set of numbers by using the product of their values as opposed to the arithmetic mean which relies on their sum (<a href="https://en.wikipedia.org/wiki/Geometric_mean">Wikipedia, 2017</a>) <a href="#footnote-ref-2">&#x2191;</a></p></div></div>
-
-          
-        </td>
-        </tr>
-        
-      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
       
         
-      
-      
-      <tr>
-        <th scope="row">Method of computation </th>
-        <td>
           
-            <p>Mathematically the IFPA for a particular year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-  </math> in month <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-    <mi>&amp;nbsp;</mi>
-  </math> is calculated as the weighted sum of the quarterly indicator of food price anomalies <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mo>(</mo>
-        <mi>Q</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math>), and the annual indicator of food price anomalies<math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>&amp;nbsp;</mi>
-    <msubsup>
-      <mrow>
-        <mo>(</mo>
-        <mi>A</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-    <mo>)</mo>
-  </math>.</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mfenced separators="|">
-      <mrow>
-        <mfrac>
-          <mrow>
-            <msub>
-              <mrow>
-                <mi>C</mi>
-                <mi>X</mi>
-                <mi>G</mi>
-                <mi>R</mi>
-              </mrow>
-              <mrow>
-                <mi>y</mi>
-                <mi>t</mi>
-              </mrow>
-            </msub>
-            <mo>-</mo>
-            <msub>
-              <mrow>
-                <mover accent="false">
-                  <mrow>
-                    <mi>W</mi>
-                    <mo>_</mo>
-                    <mi>C</mi>
-                    <mi>X</mi>
-                    <mi>G</mi>
-                    <mi>R</mi>
-                  </mrow>
-                  <mo>&#xAF;</mo>
-                </mover>
-              </mrow>
-              <mrow>
-                <mi>t</mi>
-              </mrow>
-            </msub>
-          </mrow>
-          <mrow>
-            <msub>
-              <mrow>
-                <mover accent="true">
-                  <mrow>
-                    <mi>&#x3C3;</mi>
-                  </mrow>
-                  <mo>^</mo>
-                </mover>
-              </mrow>
-              <mrow>
-                <msub>
-                  <mrow>
-                    <mi>W</mi>
-                    <mo>_</mo>
-                    <mi>C</mi>
-                    <mi>X</mi>
-                    <mi>G</mi>
-                    <mi>R</mi>
-                  </mrow>
-                  <mrow>
-                    <mi>t</mi>
-                  </mrow>
-                </msub>
-              </mrow>
-            </msub>
-          </mrow>
-        </mfrac>
-      </mrow>
-    </mfenced>
-    <mo>=</mo>
-    <msubsup>
-      <mrow>
-        <mi>X</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math> (2)</p>
-<p>Where:</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>C</mi>
-        <mi>X</mi>
-        <mi>G</mi>
-        <mi>R</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> is either the quarterly or annual compound growth rate in month <em>t </em>for year <em>y</em></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mover accent="false">
-          <mrow>
-            <mi>W</mi>
-            <mo>_</mo>
-            <mi>C</mi>
-            <mi>X</mi>
-            <mi>G</mi>
-            <mi>R</mi>
-          </mrow>
-          <mo>&#xAF;</mo>
-        </mover>
-      </mrow>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> is the weighted average of either the quarterly or annual compound growth rate for month <em>t</em> across years <em>y</em></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mover accent="true">
-          <mrow>
-            <mi>&#x3C3;</mi>
-          </mrow>
-          <mo>^</mo>
-        </mover>
-      </mrow>
-      <mrow>
-        <msub>
-          <mrow>
-            <mi>W</mi>
-            <mo>_</mo>
-            <mi>C</mi>
-            <mi>X</mi>
-            <mi>G</mi>
-            <mi>R</mi>
-          </mrow>
-          <mrow>
-            <mi>t</mi>
-          </mrow>
-        </msub>
-      </mrow>
-    </msub>
-  </math> is the weighted standard deviation of either the quarterly or annual compound growth rate for month <em>t</em> over years <em>y</em>, </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mi>X</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math> is either the quarterly or annual indicator of a price anomaly in month <em>t</em> for year <em>y</em>. </p>
-<p>Then IFPA is defined as:</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-    <mo>=</mo>
-    <mi>&#x3B3;</mi>
-    <msubsup>
-      <mrow>
-        <mi>Q</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-    <mo>+</mo>
-    <mfenced separators="|">
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>&#x3B3;</mi>
-      </mrow>
-    </mfenced>
-    <msubsup>
-      <mrow>
-        <mi>A</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math> (3)</p>
-<p>Where: </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> is the indicator of food price anomalies in year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-    <mi>&amp;nbsp;</mi>
-  </math>and month <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math> </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mi>Q</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math> is the quarterly indicator of food price anomalies in year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-    <mi>&amp;nbsp;</mi>
-  </math>and month <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mi>A</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math> is the annual indicator of food price anomalies in year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-    <mi>&amp;nbsp;</mi>
-  </math>and month <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>&#x3B3;</mi>
-  </math> is a weight with a value of 0.4.</p>
-<p>The weight <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>&#x3B3;</mi>
-  </math> establishes the relative importance of quarterly (<math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mi>Q</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-  </math>) anomalies to the year-on-year price variations (<math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msubsup>
-      <mrow>
-        <mi>A</mi>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-      <mrow></mrow>
-    </msubsup>
-    <mo>)</mo>
-  </math>. The weight <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>&#x3B3;</mi>
-  </math> is set to 0.4, giving a weight of 0.6--<math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mfenced separators="|">
-      <mrow>
-        <mn>1</mn>
-        <mo>-</mo>
-        <mi>&#x3B3;</mi>
-      </mrow>
-    </mfenced>
-  </math>-- to abnormal price growth from year-to-year. This is done to better capture the price level relative to its seasonal trends, which is measured to the price level a year earlier. SDG indicator 2.c.1 is then calculated as the arithmetic mean over <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math> months of the <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> as follows:</p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-      </mrow>
-    </msub>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>1</mn>
-      </mrow>
-      <mrow>
-        <mi>t</mi>
-      </mrow>
-    </mfrac>
-    <mrow>
-      <munderover>
-        <mo stretchy="false">&#x2211;</mo>
-        <mrow>
-          <mi>i</mi>
-          <mo>=</mo>
-          <mn>1</mn>
-        </mrow>
-        <mrow>
-          <mi>t</mi>
-        </mrow>
-      </munderover>
-      <mrow>
-        <msub>
-          <mrow>
-            <mi>I</mi>
-            <mi>F</mi>
-            <mi>P</mi>
-            <mi>A</mi>
-          </mrow>
-          <mrow>
-            <mi>y</mi>
-            <mi>t</mi>
-          </mrow>
-        </msub>
-      </mrow>
-    </mrow>
-  </math> (4)</p>
-<p>Where: </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-      </mrow>
-    </msub>
-  </math> is the annual indicator of food price anomalies in year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-  </math> </p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-      <mrow>
-        <mi>I</mi>
-        <mi>F</mi>
-        <mi>P</mi>
-        <mi>A</mi>
-      </mrow>
-      <mrow>
-        <mi>y</mi>
-        <mi>t</mi>
-      </mrow>
-    </msub>
-  </math> is the indicator of food price anomalies in year <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>y</mi>
-    <mi>&amp;nbsp;</mi>
-  </math>and month <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>t</mi>
-  </math> is the number of months in a year</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </table>
 
             </article>
@@ -1443,12 +770,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220721171934'></script>
+<script src='/site/assets/js/sdg.js?v=20220721182519'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220721171934"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220721182519"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
