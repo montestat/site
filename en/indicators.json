@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -1636,14 +1636,6 @@
           "keywords": "",
           "href": "/site/en/15-3-1",
           "status": "notstarted"
-        },
-        {
-          "id": "15-3-1-a",
-          "title": "Sample indicator",
-          "description": "",
-          "keywords": "",
-          "href": "/site/en/15-3-1-a",
-          "status": "complete"
         },
         {
           "id": "15-4-1",
