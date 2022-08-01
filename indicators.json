@@ -255,19 +255,19 @@
         },
         {
           "id": "3-2-1",
-          "title": "Stopa smrtnosti ispod 5 godina",
+          "title": "Stopa smrtnosti djece ispod 5 godina",
           "description": "",
           "keywords": "",
           "href": "/site/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
-          "title": "Stopa neonatalne smrtnosti",
+          "title": "Stopa smrtnosti novorođenčadi",
           "description": "",
           "keywords": "",
           "href": "/site/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
