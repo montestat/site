@@ -279,7 +279,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "Incidencija tuberkuloze na 100 000 stanovnika",
+          "title": "Incidencija tuberkuloze na 100000 stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-2",
@@ -287,15 +287,15 @@
         },
         {
           "id": "3-3-3",
-          "title": "Učestalost malarije na 1 000 stanovnika",
+          "title": "Incidencija malarije na 1000 stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
-          "title": "Incidencija hepatitisa B na 100 000 stanovnika",
+          "title": "Incidencija hepatitisa B na 100000 stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/3-3-4",
@@ -351,19 +351,19 @@
         },
         {
           "id": "3-7-1",
-          "title": "Udio žena u reproduktivnom dobu (15-49 godina) koje imaju potrebu za planiranjem porodice savremenim metodama",
+          "title": "Udio žena reproduktivne dobi (starosti 15-49 godina) čija je potreba za planiranjem porodice zadovoljena modernim metodama",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
-          "title": "Stopa nataliteta adolescenata (10-14 godina; 15-19 godina) na 1 000 žena u toj starosnoj grupi",
+          "title": "Stopa nataliteta adolescenata (10-14 godina; 15-19 godina) na 1000 žena u toj starosnoj grupi",
           "description": "",
           "keywords": "",
           "href": "/site/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
