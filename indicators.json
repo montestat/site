@@ -791,11 +791,11 @@
         
         {
           "id": "7-1-1",
-          "title": "Procenat stanovništva sa pristupom električnoj energiji",
+          "title": "Udio stanovništva koji ima pristup električnoj energiji",
           "description": "",
           "keywords": "",
           "href": "/site/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
@@ -807,11 +807,11 @@
         },
         {
           "id": "7-2-1",
-          "title": "Učešće obnovljive energije u ukupnoj finalnoj potrošnji energije",
+          "title": "Udio obnovljive energije u ukupnoj konačnoj potrošnji energije",
           "description": "",
           "keywords": "",
           "href": "/site/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
@@ -847,11 +847,11 @@
         
         {
           "id": "8-1-1",
-          "title": "Godišnja stopa rasta realnog BDP-a po glavi stanovnika",
+          "title": "Godišnja stopa rasta BDP-a po glavi stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
