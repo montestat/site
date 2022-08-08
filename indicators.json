@@ -903,11 +903,11 @@
         },
         {
           "id": "8-6-1",
-          "title": "Procenat mladih (starosti 15-24 godine) koji nijesu u obrazovanju, zaposlenju ili u obuci",
+          "title": "Udio mladih (starosne dobi 15-24) koji nijesu obuhvaćeni obrazovanjem, zapošljavanjem ili obukom",
           "description": "",
           "keywords": "",
           "href": "/site/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
@@ -915,7 +915,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/8-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-1",
@@ -943,11 +943,11 @@
         },
         {
           "id": "8-10-1",
-          "title": "(a) Broj filijala komercijalnih banaka na 100 000 odraslih i (b) broj bankomata (bankomata) na 100 000 odraslih",
+          "title": "(a) Broj filijala poslovnih banaka na 100000 odraslih osoba (b) broj bankomata na 100000 odraslih osoba",
           "description": "",
           "keywords": "",
           "href": "/site/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
