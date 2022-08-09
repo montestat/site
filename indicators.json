@@ -991,35 +991,35 @@
         },
         {
           "id": "9-1-2",
-          "title": "Obim putnika i tereta, prema vidovima transporta",
+          "title": "Obim putničkog i teretnog saobraćaja, po vidu prevoza",
           "description": "",
           "keywords": "",
           "href": "/site/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1",
-          "title": "Dodatna vrijednost proizvodnje kao proporcija BDP-a i po glavi stanovnika",
+          "title": "Proizvodna vrijednost dodata kao udio BDP-a i po glavi stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-2",
-          "title": "Zaposlenost u proizvodnji kao proporcija ukupne zaposlenosti",
+          "title": "Zaposlenost u proizvodnoj industriji kao udio ukupne zaposlenosti",
           "description": "",
           "keywords": "",
           "href": "/site/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Udio malih industrija u ukupnoj dodatoj vrijednosti industrije",
+          "title": "Udio malih industrijskih preduzeća u ukupnoj industrijskoj vrijednosti dodatoj finansijskim uslugama, uključujući povoljne kredite, i njihovu integraciju u lance vrijednosti i tržišta",
           "description": "",
           "keywords": "",
           "href": "/site/9-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-2",
@@ -1039,19 +1039,19 @@
         },
         {
           "id": "9-5-1",
-          "title": "Izdaci za istraživanje i razvoj kao proporcija BDP-a",
+          "title": "Potrošnja na istraživanje i razvoj kao udio BDP-a",
           "description": "",
           "keywords": "",
           "href": "/site/9-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-5-2",
-          "title": "Istraživači (u ekvivalentu punog radnog vremena) na milion stanovnika",
+          "title": "Broj istraživača (sa punim radnim vremenom) na milion stanovnika",
           "description": "",
           "keywords": "",
           "href": "/site/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
