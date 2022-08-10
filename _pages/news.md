@@ -1,9 +1,9 @@
 ---
 layout: news
-title: News & Events
+title: Vijesti i događaji
 permalink: /news/
 language: cnr
 ---
 
-## News and Events
-Check this page for news regarding the reporting of our statistics for global indicators and opportunities to contribute to measuring achievement of the sustainable development goals
+## Vijesti i događaji
+Provjerite ovu stranicu za novosti u vezi sa izvještavanjem naše statistike za globalne indikatore i mogućnosti da doprinesete mjerenju postizanja ciljeva održivog razvoja

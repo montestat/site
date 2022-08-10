@@ -1,55 +1,55 @@
 ---
 layout: page
-title: Cookies and privacy
+title: Kolačići i privatnost
 permalink: /about/cookies-and-privacy/
 language: cnr
 ---
-The following is a description of what data is collected when you use this website and what it is used for.
+Slijedi opis koji se podaci prikupljaju kada koristite ovu web stranicu i za šta se ona koristi.
 
-## User information
-This website uses cookies and JavaScript tracking code to gather anonymous information about visitors' usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.
+## Informacije o korisniku
+Ova web stranica koristi kolačiće i JavaScript kod za praćenje i prikupljanje anonimnih informacija o obrascima korišćenja web sajta, kako bi se poboljšala navigacija stranice, prezentacija njenog sadržaja i kvalitet usluga.
 
-The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.
+Prikupljene informacije ne uključuju lične podatke kao što su vaše ime, godine, broj telefona, poštanska adresa ili adresa e-pošte, niti dozvoljavaju ličnu identifikaciju korisnika.
 
-## Cookies
-When we provide services, we want to make them easy, useful and reliable.
+## Kolačići
+Kada pružamo usluge, želimo ih učiniti lako dostupnim, korisnim i pouzdanim.
 
-Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.
+Tamo gdje se usluge pružaju na internetu, to ponekad uključuje postavljanje male količine informacija na vaš uređaj, na primjer, računar ili mobilni telefon.
 
-These include small files known as cookies. They cannot be used to identify you personally.
+To uključuje male datoteke poznate kao kolačići. Ne mogu se koristiti za vašu ličnu identifikaciju.
 
-These pieces of information are used to improve services for you through, for example:
+Ove informacije se koriste za poboljšanje usluga, na primjer:
 
-- enabling a service to recognise your device so you don't have to give the same information several times during one task
-- recognising that you may already have given a username and password so you don't need to do it for every web page requested
-- measuring how many people are using services, so they can be made easier to use and there's enough capacity to ensure they are fast
+- omogućavanje usluge da prepozna vaš uređaj tako da ne morate davati iste informacije nekoliko puta tokom jednog zadatka
+- prepoznajući da ste možda već dali korisničko ime i lozinku tako da ne morate to činiti za svaku traženu web stranicu
+- mjerenje koliko ljudi koristi usluge, kako bi se olakšalo korišćenje i obezbijedilo dovoljno kapaciteta da web sajt bude brz
 
-You can manage these small files yourself and learn more about them through [internet browser cookies – what they are and how to manage them](https://www.aboutcookies.org/).
+Možete sami upravljati ovim malim datotekama i saznati više o njima putem [kolačića internet pretraživača – šta su i kako njima upravljati](https://www.aboutcookies.org/).
 
-## Our use of cookies
-Important information about this list of cookies:
+## Naša upotreba kolačića
+Važne informacije o ovoj listi kolačića:
 
-This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.
+Ova lista možda nije uvijek potpuna. Redovno će se ažurirati kako se budu prikupljale dodatne informacije od drugih kompanija i organizacija sa kojima sarađujemo.
 
-Cookies for retaining active state of accessibility services:
+Kolačići za zadržavanje aktivnog stanja usluga pristupačnosti:
 
-- contrast
+- kontrast
 
-Cookies for measuring use of services:
+Kolačići za mjerenje korišćenja usluga:
 
 - _ga
 - _gid
 - _gat
 
-By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.
+Razumijevanjem kako ljudi koriste našu web stranicu, možemo poboljšati pružene informacije. Ove podatke prikupljamo koristeći Google Analytics.
 
-## External links
-This site may contain links to other sites.
+## Vanjske veze
+Ova stranica može sadržavati linkove na druge stranice.
 
-ONS is not responsible for the privacy practices or the content of such websites.
+ONS nije odgovoran za praksu privatnosti ili sadržaj takvih web stranica.
 
-## Security
-This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.
+## Sigurnost
+Ova web stranica ima sigurnosne mjere za zaštitu od gubitka, zloupotrebe i izmjene informacija pod našom kontrolom.
 
-## Contacting the website
-If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can [contact us](mailto:{{site.email_contacts.functional}}).
+## Kontaktiranje web stranice
+Ako imate bilo kakvih pitanja u vezi sa ovom Izjavom o privatnosti, praksama ove stranice ili vašim poslovima s ovom web-stranicom, možete [nas kontaktirati](mailto:{{site.email_contacts.functional}}).

@@ -2,7 +2,7 @@
 layout: categories
 permalink: /categories/
 language: cnr
-title: Categories
+title: Kategorije
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+## Objave po kategorijama
+Lista objava grupisanih po kategorijama:
