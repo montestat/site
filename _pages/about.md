@@ -1,30 +1,28 @@
 ---
-title: About
+title: O nama
 permalink: /about/
 language: cnr
 layout: page
 ---
+[Ciljevi održivog razvoja](https://www.un.org/sustainabledevelopment/sustainable-development-goals/) (COR) su univerzalni poziv na akciju da bi se:
 
-The [Sustainable Development Goals](https://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a universal call to action to:
-
-  * end poverty
+  * okončalo siromaštvo
   
-  * protect the planet
+  * zaštitila planeta
   
-  * improve the lives and prospects of everyone, everywhere
+  * poboljšali životi svih ljudi
 
-The 17 Goals were adopted by all UN Member States in 2015, as part of the [2030 Agenda for Sustainable Development](https://sustainabledevelopment.un.org/post2015/transformingourworld).
+Sve države članice UN-a usvojile su 17 ciljeva 2015. godine, kao dio [Agende za održivi razvoj 2030] (https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
-## About this site
-This site is based on the open source [Open SDG](https://open-sdg.org/) platform.
+## O ovoj platformi
+Ova stranica je zasnovana na platformi otvorenog koda [Open SDG](https://open-sdg.org/).
     
-Other countries or organisations wishing to reuse the Open SDG reporting platform are welcome to do so for free. The [Open SDG Quick Start Guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running.
+Druge zemlje ili organizacije koje žele ponovo koristiti Open SDG platformu za izvještavanje mogu to učiniti besplatno. [vodič za Open SDG](https://open-sdg.readthedocs.io/en/latest/quick-start/) daje tehničke savjete o najbržem načinu da se kopija Open SDG platforme realizuje.
 
-If you have comments, feedback, or want to get involved with the Open SDG community please email <opensdg@googlegroups.com> or contact the [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
+Ako imate komentare, povratne informacije ili želite da se uključite u Open SDG zajednicu, pošaljite mejl na <opensdg@googlegroups.com> ili kontaktirajte [Open SDG GitHub](https://github.com/open-sdg/open-sdg).
 
-## Need more info?
-Answers to some specific questions about this website are included on our [frequently asked questions]({{ site.baseurl }}{% link _pages/faq.md %}) page.
+## Trebate više informacija?
+Odgovori na neka konkretna pitanja o ovoj web stranici nalaze se na našoj stranici [često postavljana pitanja]({{ site.baseurl }}{% link _pages/faq.md %}).
 
-## Feedback
-To provide feedback on our SDG data please [contact us]({{ site.baseurl }}/contact-us)
-
+## Povratne informacije
+Za povratne informacije o našim COR podacima molimo [kontaktirajte nas]({{ site.baseurl }}/contact-us)
