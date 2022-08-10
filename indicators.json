@@ -1367,19 +1367,19 @@
         },
         {
           "id": "12-4-1",
-          "title": "Broj strana u međunarodnim multilateralnim ekološkim sporazumima o opasnom otpadu i drugim hemikalijama koje ispunjavaju svoje obaveze i obaveze u prenošenju informacija kako se zahtijeva svakim relevantnim sporazumom",
+          "title": "Broj stranka potpisnica međunarodnih multilateralnih sporazuma o opasnom otpadu i drugim hemikalijama, koje ispunjavaju obaveze koje su na sebe preuzele i obaveze dostavljanja informacija koje se traže na osnovu svakog od relevatnih sporazuma",
           "description": "",
           "keywords": "",
           "href": "/site/12-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-4-2",
-          "title": "(a) Opasni otpad proizveden po glavi stanovnika; i (b) udio tretiranog opasnog otpada, prema vrsti tretmana",
+          "title": "(a) Opasni otpad proizveden po glavi stanovnika, udio prerađenog opasnog otpada i po vrsti prerade",
           "description": "",
           "keywords": "",
           "href": "/site/12-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-5-1",
@@ -1387,7 +1387,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/12-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-6-1",
@@ -1839,7 +1839,7 @@
         },
         {
           "id": "16-6-1",
-          "title": "Primarni državni rashodi kao udio prvobitno odobrenog budžeta, po sektoru (ili prema budžetskim kodovima ili slično)",
+          "title": "Udio primarnih budžetskih rashoda u prvobitno usvojenom budžetu, po sektoru (ili po kodovima budžetske klasifikacije ili slično)",
           "description": "",
           "keywords": "",
           "href": "/site/16-6-1",
@@ -1879,11 +1879,11 @@
         },
         {
           "id": "16-9-1",
-          "title": "Udio djece mlađe od 5 godina čija su rođenja upisana u registar civilnih organa, prema starosti",
+          "title": "Udio djece ispod 5 godina starosti čije je rođenje registrovano kod organa nadležnog za građanske registre, po godinama",
           "description": "",
           "keywords": "",
           "href": "/site/16-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-10-1",
@@ -1903,11 +1903,11 @@
         },
         {
           "id": "16-a-1",
-          "title": "Postojanje nezavisnih nacionalnih institucija za ljudska prava u skladu sa Pariškim principima",
+          "title": "Postojanje nezavisnih nacionalnih institucija za zaštitu ljudskih prava u skladu sa Pariškim načelima",
           "description": "",
           "keywords": "",
           "href": "/site/16-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-b-1",
@@ -1999,11 +1999,11 @@
         },
         {
           "id": "17-8-1",
-          "title": "Udio pojedinaca koji koriste internet",
+          "title": "Udio osoba koje koriste internet",
           "description": "",
           "keywords": "",
           "href": "/site/17-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-9-1",
@@ -2087,11 +2087,11 @@
         },
         {
           "id": "17-18-2",
-          "title": "Broj zemalja koje imaju nacionalno statističko zakonodavstvo koje je u skladu sa Osnovnim principima zvanične statistike",
+          "title": "Broj zemalja koje imaju domaće zakonodavstvo o statistici koje je usklađeno sa Osnovnim načelima zvanične statistike",
           "description": "",
           "keywords": "",
           "href": "/site/17-18-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-18-3",
