@@ -1279,11 +1279,11 @@
         },
         {
           "id": "11-6-2",
-          "title": "Godišnji srednji nivoi finih čestica (npr. PM2.5 i PM10) u gradovima (prema broju stanovnika)",
+          "title": "Godišnji srednji nivoi finih suspendovanih čestica (npr. PM2.5 i PM10) u gradovima (ponderisano stanovništvo)",
           "description": "",
           "keywords": "",
           "href": "/site/11-6-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-1",
