@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220811112613">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220811174841">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -532,7 +532,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('create_goals', {"layout":"goal-with-progress","previous_next_links":false,"goals":[]});
+        var currentValue = normalizeCurrentValue('create_goals', {"layout":"goal-with-progress","previous_next_links":true,"goals":[]});
         var propertyEditor = editor.getEditor('root.create_goals');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1156,7 +1156,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('progress_status', {"status_heading":"","status_types":[]});
+        var currentValue = normalizeCurrentValue('progress_status', {"status_heading":"status.progress_status","status_types":[{"value":"not_available","label":"status.progress_not_available","image":"assets/img/progress/not-available.png","alt":"status.progress_not_available"},{"value":"challenges_remain","label":"status.progress_challenges_remain","image":"assets/img/progress/challenges-remain.png","alt":"status.progress_challenges_remain"},{"value":"approaching_target","label":"status.progress_approaching_target","image":"assets/img/progress/approaching-target.png","alt":"status.progress_approaching_target"},{"value":"target_achieved","label":"status.progress_target_achieved","image":"assets/img/progress/target-achieved.png","alt":"status.progress_target_achieved"}]});
         var propertyEditor = editor.getEditor('root.progress_status');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1437,12 +1437,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraga';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220811112613'></script>
+<script src='/site/assets/js/sdg.js?v=20220811174841'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220811112613"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220811174841"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
