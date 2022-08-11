@@ -135,7 +135,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "Percentage of children under the age of 5 who are: (a) two standard deviations behind (moderate and severe stunting); (b) three standard deviations behind (a severe form of stunting) in relation to the mean value of body height for a given age, according to the WHO standard",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-1",
@@ -143,7 +143,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "Percentage of children under the age of 5 who are: (a) two standard deviations behind (moderate and severe stunting and obesity), (b) three standard deviations behind (severe developmental delay and obesity) in relation to the mean value of body weight in relation to height, according to the WHO standard",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-2",
@@ -2007,7 +2007,7 @@
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",
           "description": "",
           "keywords": "",
           "href": "/site/en/17-9-1",
