@@ -220,6 +220,9 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
+  - path: /publications
+    translation_key: menu.publications
+    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
