@@ -198,12 +198,12 @@ permalink: en/publications/
 
 <tr>
     <td>Quality assessment of hospital care for mothers and newborns in Montenegro</td>
-    <td>SP3;<br>SP5</td>
+    <td>SP2</td>
     <td>Health</td>
-    <td>3</td>
+    <td>3, 5</td>
     <td>United Nations - UNICEF</td>
     <td>June 2023</td>
-    <td></td>   
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/cnr/2404/11_Procjena_kvaliteta_njege_majki_i_novorodjencadi_u_Crnoj_Gori.pdf" target="_blank">MNE</a></td>
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/11_Montenegro_QoC_assessment_2023.pdf" target="_blank">ENG</a></td>
 </tr>
 
