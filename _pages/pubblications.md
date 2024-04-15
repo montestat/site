@@ -197,13 +197,13 @@ permalink: /publications/
 </tr>
 
 <tr>
-    <td>Procjena kvaliteta bolničke zaštite majki i novorođenčadi u Crnoj Gori</td>
-    <td>SP3;<br>SP5</td>
+    <td>Procjena kvaliteta njege majki i novorođenčadi u Crnoj Gori</td>
+    <td>SP2</td>
     <td>Zdravlje</td>
-    <td>3</td>
+    <td>3, 5</td>
     <td>Ujedinjene Nacije - UNICEF</td>
     <td>jun 2023</td>
-    <td></td>   
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/cnr/2404/11_Procjena_kvaliteta_njege_majki_i_novorodjencadi_u_Crnoj_Gori.pdf" target="_blank">MNE</a></td>
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/11_Montenegro_QoC_assessment_2023.pdf" target="_blank">ENG</a></td>
 </tr>
 
