@@ -11,8 +11,7 @@ permalink: en/publications/
 
 <tr>
     <th>Publication</th>
-    <th>UNSDCF Strategic Priority:<br>SP1 - Economy & Environment;<br>SP2 - Human Capital;<br>SP3 - Rule of Law and Human Rights;</th>
-    <th>Thematic Focus</th>
+    <th>UNSDCF Strategic Priority:<br>SP1 - Economic development & Environmental sustainability;<br>SP2 - Human Capital and Reducing Vulnerability;<br>SP3 - Social Cohesion, Governance, Rule of Law and Human Rights</th>
     <th>Relevant SDGs</th>
     <th>Publisher</th>
     <th>Date</th>
@@ -23,7 +22,6 @@ permalink: en/publications/
 <!-- <tr>
     <td>Name</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>Health</td>
     <td>2, 3</td>
     <td>United Nations - UNICEF</td>
     <td>May 2023</td>
@@ -34,7 +32,6 @@ permalink: en/publications/
 <tr>
     <td>Common Country Analysis - 2023 update</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>Economic Development, Environment Sustainability, Human Capital, Governance</td>
     <td>All</td>
     <td>United Nations</td>
     <td>March 2024</td>
@@ -45,7 +42,6 @@ permalink: en/publications/
 <tr>
     <td>MCR2030 Europe and Central Asia: Partners' guide for local disaster risk reduction strategies and action plans</td>
     <td>SP1</td>
-    <td>Resilience, Climate Change</td>
     <td>11, 13</td>
     <td>United Nations - UNDRR</td>
     <td>March 2024</td>
@@ -56,18 +52,16 @@ permalink: en/publications/
 <tr>
     <td>Stimulating Environment for Sustainable Enterprises</td>
     <td>SP1</td>
-    <td>Enterprises</td>
     <td>8</td>
     <td>United Nations - ILO</td>
     <td>December 2023</td>
-    <td><a href="https://www.sdgmontenegro.me/assets/documents/cnr/2404/17_eese-2023.pdf" target="_blank">ENG</a></td>
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/cnr/2404/17_eese-2023.pdf" target="_blank">MNE</a></td>
     <td></td>
 </tr>
 
 <tr>
     <td>The Gender Pay gap in Montenegro</td>
     <td>SP1</td>
-    <td>Data, gender</td>
     <td>5, 10</td>
     <td>United Nations - ILO</td>
     <td>December 2023</td>
@@ -78,7 +72,6 @@ permalink: en/publications/
 <tr>
     <td>SDG policy brief on the north</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>LNOB, north</td>
     <td>10</td>
     <td>United Nations</td>
     <td>December 2023</td>
@@ -89,7 +82,6 @@ permalink: en/publications/
 <tr>
     <td>Policy brief - Women transforming rural areas in Northern Montenegro</td>
     <td>SP1;<br>SP2</td>
-    <td>Gender, LNOB, Agriculture, North</td>
     <td>2, 5</td>
     <td>United Nations - IFAD</td>
     <td>November 2023</td>
@@ -100,7 +92,6 @@ permalink: en/publications/
 <tr>
     <td>Policy brief- Promoting youth engagement in the north of Montenegro</td>
     <td>SP1;<br>SP2</td>
-    <td>Youth, Agriculture, North</td>
     <td>2</td>
     <td>United Nations - IFAD</td>
     <td>November 2023</td>
@@ -111,7 +102,6 @@ permalink: en/publications/
 <tr>
     <td>Montenegro Digital Development Country Profile</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>Digitalisation</td>
     <td>9, 17</td>
     <td>United Nations - ITU</td>
     <td>October 2023</td>
@@ -122,7 +112,6 @@ permalink: en/publications/
 <tr>
     <td>Diaspora Pilot Mapping Report</td>
     <td>SP2</td>
-    <td>Migration, Community Development</td>
     <td>1, 10, 17</td>
     <td>United Nations - IOM</td>
     <td>September 2023</td>
@@ -133,7 +122,6 @@ permalink: en/publications/
 <tr>
     <td>Preliminary observations on the situation of independence of judges and lawyers</td>
     <td>SP3</td>
-    <td>Judiciary, Human Rights, Rule of Law</td>
     <td>16</td>
     <td>United Nations - OHCHR</td>
     <td>September  2023</td>
@@ -144,7 +132,6 @@ permalink: en/publications/
 <tr>
     <td>SDG financing policy brief</td>
     <td>SP3</td>
-    <td>SDG financing</td>
     <td>17</td>
     <td>United Nations</td>
     <td>August 2023</td>
@@ -155,18 +142,16 @@ permalink: en/publications/
 <tr>
     <td>Smart Sustainable City Podgorica profile</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>Smart cities</td>
     <td>11</td>
     <td>United Nations - UNECE</td>
     <td>August 2023</td>
-    <td><a href="" target="_blank">MNE</a></td>
+    <td></td>
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/1_ECE_HBP_2023_Inf_1.pdf" target="_blank">ENG</a></td>
 </tr>
 
 <tr>
     <td>Analysis of Diaspora registers in Montenegro</td>
     <td>SP2</td>
-    <td>Migration, Community Development</td>
     <td>1, 10, 17</td>
     <td>United Nations - IOM</td>
     <td>July 2023</td>
@@ -177,7 +162,6 @@ permalink: en/publications/
 <tr>
     <td>Employment survey for Ukrainian Temporary Protection Holders</td>
     <td>SP2;<br>SP3</td>
-    <td>Employment</td>
     <td>8, 10</td>
     <td>United Nations - UNHCR</td>
     <td>July 2023</td>
@@ -188,7 +172,6 @@ permalink: en/publications/
 <tr>
     <td>Montenegro Nutrition Survey</td>
     <td>SP2</td>
-    <td>Health, Food</td>
     <td>2, 3</td>
     <td>United Nations - UNICEF</td>
     <td>June 2023</td>
@@ -199,7 +182,6 @@ permalink: en/publications/
 <tr>
     <td>Quality assessment of hospital care for mothers and newborns in Montenegro</td>
     <td>SP2</td>
-    <td>Health</td>
     <td>3, 5</td>
     <td>United Nations - UNICEF</td>
     <td>June 2023</td>
@@ -210,18 +192,16 @@ permalink: en/publications/
 <tr>
     <td>Analysis of Montenegrin Legislative Framework on the Use of Online Platforms to Commit Human Trafficking</td>
     <td>SP3</td>
-    <td>Human Rights, Trafficking in Human Beings</td>
     <td>5, 16</td>
     <td>United Nations - IOM</td>
     <td>June 2023</td>
-    <td><a href="https://www.sdgmontenegro.me/assets/documents/crn/2404/14_Analysis_of_Montenegrin_Legislative_Framework_on_the_Use_of_Online_Platforms_to_Commit_Human_Trafficking.pdf" target="_blank">MNE</a></td>
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/cnr/2404/14_Analysis_of_Montenegrin_Legislative_Framework_on_the_Use_of_Online_Platforms_to_Commit_Human_Trafficking.pdf" target="_blank">MNE</a></td>   
     <td></td>
 </tr>
 
 <tr>
     <td>Research on knowledge, attitudes and practices in relation to early childhood development</td>
     <td>SP2</td>
-    <td>Early childhood development</td>
     <td>3, 4</td>
     <td>United Nations - UNICEF</td>
     <td>May 2023</td>
@@ -232,7 +212,6 @@ permalink: en/publications/
 <tr>
     <td>Survey on Temporary Protection for Ukrainian Refugees in Montenegro</td>
     <td>SP2;<br>SP3</td>
-    <td>Human Rights</td>
     <td>16</td>
     <td>United Nations - UNHCR</td>
     <td>May 2023</td>
@@ -243,7 +222,6 @@ permalink: en/publications/
 <tr>
     <td>The Second Voluntary National Review</td>
     <td>SP1;<br>SP2;<br>SP3</td>
-    <td>Sustainable Development</td>
     <td>All</td>
     <td>Government of Montenegro - Sustainable Development Office</td>
     <td>June 2022</td>
