@@ -11,7 +11,7 @@ permalink: en/publications/
 
 <tr>
     <th>Publication</th>
-    <th>UNSDCF Strategic Priority:<br>SP1 - Economic development & Environmental sustainability;<br>SP2 - Human Capital and Reducing Vulnerability;<br>SP3 - Social Cohesion, Governance, Rule of Law and Human Rights</th>
+    <th style="font-weight: normal !important;"><span style="font-weight: bold !important;">UNSDCF Strategic Priority:</span><br><span style="font-weight: bold !important;">SP1</span> - Economic development & Environmental sustainability;<br><span style="font-weight: bold !important;">SP2</span> - Human Capital and Reducing Vulnerability;<br><span style="font-weight: bold !important;">SP3</span> - Social Cohesion, Governance, Rule of Law and Human Rights</th>
     <th>Relevant SDGs</th>
     <th>Publisher</th>
     <th>Date</th>

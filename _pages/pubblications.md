@@ -11,7 +11,7 @@ permalink: /publications/
 
 <tr>
     <th>Publikacija</th>
-    <th>Strateški prioritet UNSDCF-a:<br>SP1 - Ekonomski razvoj i životna sredina;<br>SP2 - Ljudski kapital i smanjenje ranjivosti;<br>SP3 - Društvena kohezija, upravljanje, vladavina prava i ljudska prava</th>
+    <th style="font-weight: normal !important;"><span style="font-weight: bold !important;">Strateški prioritet UNSDCF-a:</span><br><span style="font-weight: bold !important;">SP1</span> - Ekonomski razvoj i životna sredina;<br><span style="font-weight: bold !important;">SP2</span> - Ljudski kapital i smanjenje ranjivosti;<br><span style="font-weight: bold !important;">SP3</span> - Društvena kohezija, upravljanje, vladavina prava i ljudska prava</th>
     <th>Relevantni Ciljevi održivog razvoja</th>
     <th>Izdavač</th>
     <th>Datum</th>
