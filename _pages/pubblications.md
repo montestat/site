@@ -29,19 +29,6 @@ permalink: /publications/
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/" target="_blank">ENG</a></td>
 </tr> -->
 
-
-<tr>
-    <td>Studija o privremenoj zaštiti Ukrajinskih izbjeglica u Crnoj Gori</td>
-    <td>SP3</td>
-    <td>10</td>
-    <td>Ujedinjene Nacije - IOM</td>
-    <td>mart 2023</td>
-    <td></td>   
-    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/20_DTM_MNE_Study_on_TP_for_Ukrainians_2023_fin.pdf" target="_blank">ENG</a></td>
-</tr>
-
-
-
 <tr>
     <td>Ažurirana analiza stanja u zemlji-2023</td>
     <td>SP1;<br>SP2;<br>SP3</td>
@@ -230,6 +217,16 @@ permalink: /publications/
     <td>maj 2023</td>
     <td></td>   
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/10_Survey_on_Temporary_Protection_for_Ukrainian_Refugees_in_Montenegro.pdf" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
+    <td>Studija o privremenoj zaštiti Ukrajinskih izbjeglica u Crnoj Gori</td>
+    <td>SP3</td>
+    <td>10</td>
+    <td>Ujedinjene Nacije - IOM</td>
+    <td>mart 2023</td>
+    <td></td>   
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/20_DTM_MNE_Study_on_TP_for_Ukrainians_2023_fin.pdf" target="_blank">ENG</a></td>
 </tr>
 
 <tr>

@@ -29,16 +29,6 @@ permalink: en/publications/
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/" target="_blank">ENG</a></td>
 </tr> -->
 
-<tr>
-    <td>Study on Temporary Protection for Ukrainian Refugees in Montenegro</td>
-    <td>SP3</td>
-    <td>10</td>
-    <td>United Nations - IOM</td>
-    <td>March 2023</td>
-    <td></td>   
-    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/20_DTM_MNE_Study_on_TP_for_Ukrainians_2023_fin.pdf" target="_blank">ENG</a></td>
-</tr>
-
 
 <tr>
     <td>Common Country Analysis - 2023 update</td>
@@ -228,6 +218,16 @@ permalink: en/publications/
     <td>May 2023</td>
     <td></td>   
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/10_Survey_on_Temporary_Protection_for_Ukrainian_Refugees_in_Montenegro.pdf" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
+    <td>Study on Temporary Protection for Ukrainian Refugees in Montenegro</td>
+    <td>SP3</td>
+    <td>10</td>
+    <td>United Nations - IOM</td>
+    <td>March 2023</td>
+    <td></td>   
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/20_DTM_MNE_Study_on_TP_for_Ukrainians_2023_fin.pdf" target="_blank">ENG</a></td>
 </tr>
 
 <tr>
