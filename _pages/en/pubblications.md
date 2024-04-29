@@ -30,6 +30,17 @@ permalink: en/publications/
 </tr> -->
 
 <tr>
+    <td>Study on Temporary Protection for Ukrainian Refugees in Montenegro</td>
+    <td>SP3</td>
+    <td>10</td>
+    <td>United Nations - IOM</td>
+    <td>March 2023</td>
+    <td></td>   
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/20_DTM_MNE_Study_on_TP_for_Ukrainians_2023_fin.pdf" target="_blank">ENG</a></td>
+</tr>
+
+
+<tr>
     <td>Common Country Analysis - 2023 update</td>
     <td>SP1;<br>SP2;<br>SP3</td>
     <td>All</td>
