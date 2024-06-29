@@ -43,14 +43,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-3-1-a",
-          "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
-          "description": "",
-          "keywords": "",
-          "href": "/site/en/1-3-1-a",
           "status": "complete"
         },
         {
@@ -99,7 +91,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/1-5-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-1",
@@ -139,7 +131,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
