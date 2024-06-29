@@ -11,14 +11,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-1-1-a",
-          "title": "Stopa rizika od siromaštva",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-1-1-a",
           "status": "complete"
         },
         {
@@ -27,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -127,7 +119,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalencija pothranjenosti",
+          "title": "Rasprostranjenost pothranjenosti",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-1",
@@ -135,7 +127,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalencija umjerene ili teške nesigurnosti hrane u populaciji, na osnovu skale iskustva u nebezbjednosti hrane (FIES)",
+          "title": "Rasprostranjenost umjerenog ili visokog nedostatka uhranjeosti u populaciji",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2",
@@ -159,7 +151,7 @@
         },
         {
           "id": "2-2-3",
-          "title": "Prevalencija anemije kod žena starosti od 15 do 49 godina, prema statusu trudnoće (procenat)",
+          "title": "Rasprostranjenost anemije kod žena starosti od 15 do 49 godina, prema statusu trudnoće (procenat)",
           "description": "",
           "keywords": "",
           "href": "/site/2-2-3",
@@ -183,7 +175,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "Udio poljoprivrednih površina koje se koriste za produktivnu i održivu poljoprivredu",
+          "title": "Površine poljoprivrednog zemljišta po načinu obrade",
           "description": "",
           "keywords": "",
           "href": "/site/2-4-1",
@@ -191,7 +183,7 @@
         },
         {
           "id": "2-4-1-a",
-          "title": "Udio poljoprivrednih površina koje se koriste za produktivnu i održivu poljoprivredu",
+          "title": "Površine poljoprivrednog zemljišta po načinu obrade",
           "description": "",
           "keywords": "",
           "href": "/site/2-4-1-a",
@@ -203,11 +195,11 @@
           "description": "",
           "keywords": "",
           "href": "/site/2-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-5-2",
-          "title": "Udeo lokalnih rasa koje su klasifikovane kao ugrožene izumiranjem",
+          "title": "Udio lokalnih rasa klasifikovanih kao ugroženih, kao udio lokalnih rasa sa poznatim nivoom rizika od izumiranja",
           "description": "",
           "keywords": "",
           "href": "/site/2-5-2",
@@ -227,7 +219,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/2-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-b-1",
@@ -243,7 +235,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/2-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -323,7 +315,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/3-3-5",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-1",
@@ -439,7 +431,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "Dobno standardizovana prevalencija trenutne upotrebe duvana kod osoba u starosnoj dobi od 15 godina i starijih",
+          "title": "Dobno standardizovana rasprostranjenost trenutne upotrebe duvana kod osoba u starosnoj dobi od 15 godina i starijih",
           "description": "",
           "keywords": "",
           "href": "/site/3-a-1",
@@ -519,7 +511,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Udio djece ispod 5 godina starosti koja su razvojno na dobrom putu u pogledu zdravlja, učenja i psihosocijalnog blagostanja, po polu",
+          "title": "Procenat djece starosti 36–59 mjeseci koja su dostigla očekivani nivo razvoja u najmanje tri od sljedeće četiri oblasti: pismenost/poznavanje brojeva, fizički razvoj, socijalno-emocionalni domen i učenje",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-1",
@@ -591,7 +583,7 @@
         },
         {
           "id": "4-c-1",
-          "title": "Procenat nastavnika sa minimalno potrebnim kvalifikacijama, prema nivou obrazovanja",
+          "title": "Broj nastavnika sa minimalno potrebnim kvalifikacijama, prema nivou obrazovanja",
           "description": "",
           "keywords": "",
           "href": "/site/4-c-1",
@@ -967,7 +959,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Fatalne i nefatalne povrede na radu na 100 000 radnika, prema polu i migrantskom statusu",
+          "title": "Turizam direktnog BDP-a kao proporcija ukupnog BDP-a i u stopi rasta",
           "description": "",
           "keywords": "",
           "href": "/site/8-9-1",
@@ -1143,7 +1135,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Učešće rada u BDP-u",
+          "title": "Učešće rada u BDP-u, uključujući plate i transfere socijalne zaštite",
           "description": "",
           "keywords": "",
           "href": "/site/10-4-1",
@@ -1855,7 +1847,7 @@
         },
         {
           "id": "16-4-2",
-          "title": "Udeo zaplijenjenog, pronađenog ili predatog oružja čije je nezakonito porijeklo ili kontekst utvrdio nadležni organ u skladu sa međunarodnim instrumentima",
+          "title": "Udio zaplijenjenog, pronađenog ili predatog oružja čije je nezakonito porijeklo ili kontekst utvrdio nadležni organ u skladu sa međunarodnim instrumentima",
           "description": "",
           "keywords": "",
           "href": "/site/16-4-2",
