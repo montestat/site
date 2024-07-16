@@ -379,14 +379,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/3-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-1-a",
-          "title": "Pokrivenost osnovnih zdravstvenih usluga",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-8-1-a",
           "status": "complete"
         },
         {
@@ -395,14 +387,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/3-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-2-a",
-          "title": "Broj osoba obuhvaćenih zdravstvenim osiguranjem ili javnim zdravstvenim sistemom na 1000 stanovnika",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-8-2-a",
           "status": "complete"
         },
         {
@@ -851,7 +835,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/7-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-b-1",
@@ -1555,7 +1539,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/14-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-2-1",
@@ -1987,7 +1971,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/17-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-2",
@@ -2139,7 +2123,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/17-19-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-19-2",
