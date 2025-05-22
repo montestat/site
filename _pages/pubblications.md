@@ -30,6 +30,66 @@ permalink: /publications/
 </tr> -->
 
 <tr>
+    <td>Analiza politika i pravne osnove za rodno-odgovorno  budžetiranje u Crnoj Gori</td>
+    <td>SP3</td>
+    <td>5, 17</td>
+    <td>UN WOMEN</td>
+    <td>decembar 2024</td>
+    <td></td>
+    <td><a href="https://eca.unwomen.org/sites/default/files/2024-11/grb_montenegro.pdf" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
+    <td>Analiza primjene Pravilnika o načinu vođenja posebne evidencije o slučajevima prijavljene diskriminacije</td>
+    <td>SP3</td>
+    <td>5, 10, 16</td>
+    <td>UNDP, Ministarstvo ljudskih i manjinskih prava, Ombudsman</td>
+    <td>oktobar 2024</td>
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2505/3_Analiza_primjene_Pravilnika.pdf" target="_blank">MNE</a></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Smjernice za sprovođenje Bazelske, Roterdamske, Stokholmske i Minamatske konvencije</td>
+    <td>SP1</td>
+    <td>12</td>
+    <td>UNDP</td>
+    <td>septembar 2024</td>
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2505/1_Smjernice_za_primjenu_konvencija.pdf" target="_blank">MNE</a></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Smjernice za inkluzivno budžetiranje po mjeri osoba s invaliditetom</td>
+    <td>SP2</td>
+    <td>5, 10, 16, 17</td>
+    <td>UNDP</td>
+    <td>jul 2024</td>
+    <td><a href="https://www.undp.org/cnr/montenegro/publications/smjernice-za-inkluzivno-budzetiranje-po-mjeri-osoba-s-invaliditetom" target="_blank">MNE</a></td>
+    <td><a href="https://www.undp.org/montenegro/publications/guidelines-disability-inclusive-budgeting" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
+    <td>Istraživanje o potrebama osoba sa invaliditetom za uslugama u zajednici</td>
+    <td>SP2</td>
+    <td>5, 10, 16</td>
+    <td>UNDP</td>
+    <td>jul 2024</td>
+    <td><a href="https://www.undp.org/cnr/montenegro/publications/istrazivanje-o-potrebama-osoba-sa-invaliditetom-za-uslugama-u-zajednici" target="_blank">MNE</a></td>
+    <td><a href="https://www.undp.org/montenegro/publications/study-needs-persons-disabilities-community-living-support-services" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
+    <td>Izvještaj Specijalne izvjestiteljke o nezavisnosti sudija i advokata</td>
+    <td>SP3</td>
+    <td>16</td>
+    <td>Ujedinjene Nacije - OHCHR</td>
+    <td>april 2024</td>
+    <td></td>
+    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2505/Report_of_the_Special_Rapporteur_on_the_independence_of_judges_and_lawyers.pdf" target="_blank">ENG</a></td>
+</tr>
+
+<tr>
     <td>Ažurirana analiza stanja u zemlji-2023</td>
     <td>SP1;<br>SP2;<br>SP3</td>
     <td>Svi</td>
@@ -117,16 +177,6 @@ permalink: /publications/
     <td>septembar 2023</td>
     <td></td>   
     <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/8_Diaspora_Pilot_Mapping_Report.pdf" target="_blank">ENG</a></td>
-</tr>
-
-<tr>
-    <td>Preliminarna zapažanja o stanju nezavisnosti sudija i pravnika</td>
-    <td>SP3</td>
-    <td>16</td>
-    <td>Ujedinjene Nacije - OHCHR</td>
-    <td>septembar 2023</td>
-    <td></td>   
-    <td><a href="https://www.sdgmontenegro.me/assets/documents/en/2404/13_20230926-EOM-SRIJL-EN.pdf" target="_blank">ENG</a></td>
 </tr>
 
 <tr>
