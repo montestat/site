@@ -1,5 +1,5 @@
 # Jekyll configuration for Open SDG platform
-# Last data refresh: 2026-06-23
+# Last data refresh: 2026-06-25
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 remote_theme: open-sdg/open-sdg@2.4.0
