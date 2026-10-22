@@ -42,10 +42,10 @@ jobs:
         bundle install
         JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_prod.yml
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4.9.0
       with:
-        REPOSITORY_NAME: sdg-montenegro/sdg-montenegro.github.io
-        ACCESS_TOKEN: ${{ secrets.token }}
-        BRANCH: master
-        FOLDER: _site
-        CLEAN: true
+        repository-name: sdg-montenegro/sdg-montenegro.github.io
+        token: ${{ secrets.token }}
+        branch: master
+        folder: _site
+        clean: true
